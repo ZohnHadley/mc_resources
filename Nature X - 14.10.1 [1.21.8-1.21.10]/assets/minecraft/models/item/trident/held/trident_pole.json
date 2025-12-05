@@ -1,0 +1,21 @@
+{
+	"parent": "item/trident/held/trident_base",
+	"textures": {
+		"0": "entity/trident"
+	},
+	"elements": [
+		{
+			"from": [-0.5, -16, -0.5],
+			"to": [0.5, 9, 0.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -16, 0]},
+			"faces": {
+				"north": {"uv": [10.5, 3.5, 11, 16], "texture": "#0"},
+				"east": {"uv": [10.5, 3.5, 11, 16], "texture": "#0"},
+				"south": {"uv": [10.5, 3.5, 11, 16], "texture": "#0"},
+				"west": {"uv": [10.5, 3.5, 11, 16], "texture": "#0"},
+				"up": {"uv": [11, 4, 10.5, 3.5], "texture": "#0"},
+				"down": {"uv": [11, 15.5, 10.5, 16], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,103 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "unbreaking"}],
+        "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:condition",
+                "property": "minecraft:using_item",
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "item/shield/unbreaking_back"
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "item/shield/unbreaking_back_blocking"
+                }
+              },
+              {
+                "type": "condition","property": "has_component","component": "base_color",
+                "on_true": {"type": "empty"},
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:using_item",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "item/shield/unbreaking_front"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "item/shield/unbreaking_front_blocking"
+                  }
+                }
+              }
+            ]
+        },
+        "on_false": {"type": "empty"}
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "vanishing_curse"}],
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "item/shield/vanishing"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "item/shield/vanishing_blocking"
+          }
+        },
+        "on_false": {"type": "empty"}
+      },
+      {
+        "type": "condition",
+        "property": "component",
+        "predicate": "enchantments",
+        "value": [{"enchantments": "mending"}],
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "item/shield/mending"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "item/shield/mending_blocking"
+          }
+        },
+        "on_false": {"type": "empty"}
+      },
+      {
+        "type": "minecraft:condition",
+        "on_false": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/shield",
+          "model": {
+            "type": "minecraft:shield"
+          }
+        },
+        "on_true": {
+          "type": "minecraft:special",
+          "base": "minecraft:item/shield_blocking",
+          "model": {
+            "type": "minecraft:shield"
+          }
+        },
+        "property": "minecraft:using_item"
+      }
+    ]
+  }
+}

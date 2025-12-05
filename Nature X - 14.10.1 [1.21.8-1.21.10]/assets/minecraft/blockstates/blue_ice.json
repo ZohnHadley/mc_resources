@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/blue_ice", "weight": 45},
+            { "model": "block/blue_ice_pointy0", "weight": 1},
+            { "model": "block/blue_ice_pointy1", "weight": 1}
+        ]
+    }
+}

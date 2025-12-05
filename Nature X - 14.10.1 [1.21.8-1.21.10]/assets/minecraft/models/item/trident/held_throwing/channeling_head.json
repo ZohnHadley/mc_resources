@@ -1,0 +1,6 @@
+{
+	"parent": "item/trident/held_throwing/trident_head",
+	"textures": {
+		"0": "item/trident/held/channeling"
+	}
+}

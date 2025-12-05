@@ -1,0 +1,6 @@
+{
+	"parent": "item/trident/held_throwing/riptide",
+	"textures": {
+		"0": "item/trident/held/unbreaking"
+	}
+}

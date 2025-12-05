@@ -1,0 +1,12 @@
+{
+   "fog_color": 15527148,
+   "sky_color": 9803157,
+   "grass_color": 16777215,
+   "foliage_color": 16777215,
+   "particle": {
+      "options": {
+         "type": "minecraft:custom_snowflake"
+      },
+      "probability": 0.0008
+    }
+}

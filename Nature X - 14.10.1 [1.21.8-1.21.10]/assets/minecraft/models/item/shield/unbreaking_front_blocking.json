@@ -1,0 +1,7 @@
+{
+    "parent": "item/shield/template_blocking",
+    "textures": {
+		"0": "item/shield/unbreaking_front",
+		"2": "item/blank"
+    }
+}

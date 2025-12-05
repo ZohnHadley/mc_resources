@@ -1,0 +1,6 @@
+{
+	"parent": "item/trident/held/trident_pole",
+	"textures": {
+		"0": "item/trident/held/channeling"
+	}
+}
