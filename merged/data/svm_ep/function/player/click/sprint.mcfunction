@@ -1,2 +1,0 @@
-execute as @s[scores={svm_ep.setting.sprint_ability=0}] run return 0
-scoreboard players operation @s[scores={svm_ep.selected_ability.sprint=1..}] svm_ep.selected_ability = @s svm_ep.selected_ability.sprint

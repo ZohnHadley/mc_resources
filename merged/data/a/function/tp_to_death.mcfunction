@@ -1,1 +1,0 @@
-function svm_ep:system/tp_to_death

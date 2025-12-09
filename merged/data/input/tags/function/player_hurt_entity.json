@@ -1,7 +1,0 @@
-{
-	"replace": false,
-	"values": [
-		"svm_ep:player/hurt_entity",
-		"ci:input/player_hurt_entity"
-	]
-}

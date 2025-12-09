@@ -1,5 +1,0 @@
-execute as @s[scores={svm_ep.using_move=2401..2500}] run return run function svm_ep:power/flora/selection/ability/tick
-
-scoreboard players add @s[scores={svm_ep.using_move=..2330}] svm_ep.using_move 1
-execute unless entity @s[scores={svm_ep.z.mid_ability_input=0}] run function svm_ep:power/flora/selection/validate_option
-execute as @s[scores={svm_ep.using_move=..2340}] if predicate {entity:"this",condition:"minecraft:entity_properties",predicate:{periodic_tick:10}} if predicate {condition:"minecraft:any_of",terms:[{condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",input:{forward:1b}}}},{condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",input:{backward:1b}}}},{condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",input:{left:1b}}}},{condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",input:{right:1b}}}}]} run function svm_ep:power/flora/selection/end

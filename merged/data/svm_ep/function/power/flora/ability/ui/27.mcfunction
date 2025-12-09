@@ -1,5 +1,0 @@
-$title @s actionbar [$(mana_display),{"text":" G","color":"#B8CF6A"},{"text":"r","color":"#CCE087"},{"text":"a","color":"#E3F1B1"},{"text":"s","color":"#F7FFDC"},{"text":"s St","color":"#E3F1B1"},{"text":"e","color":"#CCE087"},{"text":"p ","color":"#B8CF6A"},{"text":"|","color":"gray"}]
-
-execute as @s[scores={svm_ep.p.flora_grass_step=1..}] run scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.flora_grass_step
-execute as @s[scores={svm_ep.p.flora_grass_step=1..}] run function svm_ep:power/delay
-$title @s[scores={svm_ep.p.flora_grass_step=1..}] actionbar [$(mana_display),{"text":" G","color":"#B8CF6A"},{"text":"r","color":"#CCE087"},{"text":"a","color":"#E3F1B1"},{"text":"s","color":"#F7FFDC"},{"text":"s St","color":"#E3F1B1"},{"text":"e","color":"#CCE087"},{"text":"p ","color":"#B8CF6A"},{"text":"|","color":"gray"},{"text":" ","color":"gray"},{"score":{"name":"%cooldown1","objective":"svm_ep.numbers"},"color":"green"},{"text":".","color":"green"},{"score":{"name":"%cooldown2","objective":"svm_ep.numbers"},"color":"green"}]

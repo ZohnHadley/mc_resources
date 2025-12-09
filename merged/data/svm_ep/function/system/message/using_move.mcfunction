@@ -1,1 +1,0 @@
-tellraw @s [{"text":"| ","color":"gray"},{"text":"You're using an ability","color":"red"},{"text":"!","color":"gray"}]

@@ -1,1 +1,0 @@
-$tellraw @a [{"score":{"name":"$(entity)","objective":"$(score)"}},{"text":" $(entity) $(score)"}]

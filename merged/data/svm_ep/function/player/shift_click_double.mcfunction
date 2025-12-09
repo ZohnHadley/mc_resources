@@ -1,1 +1,0 @@
-execute if items entity @s weapon.offhand *[minecraft:custom_data~{svm_ep.item_ability_to_apply:{}}] unless items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.item_ability:{}}] run function svm_ep:items/ability_applier/check with entity @s equipment.offhand.components."minecraft:custom_data".'svm_ep.item_ability_to_apply'

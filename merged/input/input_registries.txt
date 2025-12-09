@@ -1,7 +1,0 @@
-SNEAK
- click
-execute as @a[scores={input.sneak_time=1}] run say sneak click
- holding
-execute as @a[scores={input.sneak_time=1..}] run say sneak holding
- end holding
-execute as @a[scores={input.sneak_time=1..}] unless predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",input:{sneak:1b}}}} run say sneak end

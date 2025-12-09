@@ -1,1 +1,0 @@
-tellraw @s [{"text":"| ","color":"gray"},{"text":"Reached max upgrade","color":"red"},{"text":"!","color":"gray"}]

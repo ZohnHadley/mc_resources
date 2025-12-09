@@ -1,1 +1,0 @@
-$execute in svm_ep:cherry_island run summon marker $(x) 90 0 {Tags:["svm_ep.cherry_island"]}

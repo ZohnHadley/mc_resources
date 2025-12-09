@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/bone",
-  "textures": {
-    "layer0": "siscu_se:item/withered_bone"
-  }
-}

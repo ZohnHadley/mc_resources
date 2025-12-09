@@ -1,4 +1,0 @@
-$title @s actionbar [$(mana_display),{"text":" B","color":"aqua"},{"text":"l","color":"#72FFFF"},{"text":"a","color":"#A4FFFF"},{"text":"s","color":"#C6FFFF"},{"text":"t ","color":"#E3FFFF"},{"text":"|","color":"gray"}]
-execute as @s[scores={svm_ep.p.lightning_ability_13_delay=1..}] run scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.lightning_ability_13_delay
-execute as @s[scores={svm_ep.p.lightning_ability_13_delay=1..}] run function svm_ep:power/delay
-$title @s[scores={svm_ep.p.lightning_ability_13_delay=1..}] actionbar [$(mana_display),{"text":" B","strikethrough":true,"color":"#4F4F4F"},{"text":"l","strikethrough":true,"color":"#6D6D6D"},{"text":"a","strikethrough":true,"color":"#787878"},{"text":"s","strikethrough":true,"color":"#909090"},{"text":"t","strikethrough":true,"color":"#A3A3A3"},{"text":" ","strikethrough":true,"color":"#909090"},{"text":"|","color":"gray"},$(cooldown_display)]

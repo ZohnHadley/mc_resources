@@ -1,2 +1,0 @@
-$title @s actionbar [$(mana_display),{"text":" W","color":"#DDDDDD"},{"text":"i","color":"#CFCFCF"},{"text":"n","color":"#BFBFBF"},{"text":"g","color":"#B5B5B5"},{"text":"s |","color":"gray"}]
-$title @s[scores={svm_ep.p.harpie_movement=1}] actionbar [$(mana_display),{"text":" H","color":"gray"},{"text":"i","color":"#B5B5B5"},{"text":"d","color":"#BFBFBF"},{"text":"e","color":"#CFCFCF"},{"text":" W","color":"#DDDDDD"},{"text":"i","color":"#CFCFCF"},{"text":"n","color":"#BFBFBF"},{"text":"g","color":"#B5B5B5"},{"text":"s |","color":"gray"}]

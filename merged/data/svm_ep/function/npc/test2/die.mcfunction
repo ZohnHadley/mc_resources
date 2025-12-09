@@ -1,1 +1,0 @@
-#execute at @s run loot spawn ~ ~ ~ loot svm_ep:items/vine

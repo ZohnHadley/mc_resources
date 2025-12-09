@@ -1,5 +1,0 @@
-$title @s actionbar [$(mana_display),{"text":" C","color":"gold"},{"text":"h","color":"#FFBD0C"},{"text":"a","color":"#FFC742"},{"text":"r","color":"#FFD955"},{"text":"g","color":"#FFF378"},{"text":"e","color":"#FFD955"},{"text":"-","color":"#FFC742"},{"text":"u","color":"#FFBD0C"},{"text":"p ","color":"gold"},{"text":"|","color":"gray"}]
-execute as @s[scores={svm_ep.p.lightning_ability_16_delay=1..}] run scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.lightning_ability_16_delay
-execute as @s[scores={svm_ep.p.lightning_ability_16_delay=1..}] run function svm_ep:power/delay
-$title @s[scores={svm_ep.p.lightning_ability_16_delay=1..}] actionbar [$(mana_display),{"text":" C","strikethrough":true,"color":"#656565"},{"text":"har","strikethrough":true,"color":"#8F8F8F"},{"text":"ge","strikethrough":true,"color":"#A4A4A4"},{"text":"-u","strikethrough":true,"color":"#8F8F8F"},{"text":"p ","strikethrough":true,"color":"#656565"},{"text":"|","color":"gray"},$(cooldown_display)]
-

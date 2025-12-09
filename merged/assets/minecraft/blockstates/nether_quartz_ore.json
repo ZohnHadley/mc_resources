@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/nether_quartz_ore_default", "weight": 7},
-            { "model": "block/nether_quartz_ore_3d", "weight": 1}
-        ]
-    }
-}

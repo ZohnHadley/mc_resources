@@ -1,9 +1,0 @@
-data modify storage svm_ep:menu power.temp.icon set value 'svm_ep:icon/healing'
-data modify storage svm_ep:menu power.temp.description set value "Could be called a support type of power, but don't forget to be your own support!"
-
-function svm_ep:menu/moves/add_ability/main {"name":"Heal","use_requirement":"Requires 25 mana, charging drains","description":"Heals you, hold to heal a mob in-front","id_number":"1","unlock_id":"20075","unlock_requirement":"Unlocked by default"}
-function svm_ep:menu/moves/add_ability/main {"name":"Regenerational Aura","use_requirement":"Requires 60 mana","description":"Gives regeneration to mobs around, holding creates a regenerational field around","id_number":"2","unlock_id":"20064","unlock_requirement":"Click to unlock for 5 Ability Points"}
-function svm_ep:menu/moves/add_ability/main {"name":"Marking","use_requirement":"Requires 0 mana","description":"Marks/unmarks a mob in-front, holding removes previous marking","id_number":"3","unlock_id":"20065","unlock_requirement":"Click to unlock for 10 Ability Points"}
-function svm_ep:menu/moves/add_ability/main {"name":"Health Spread","use_requirement":"Requires 10 mana for each mob","description":"Shoots a healing orb to each mob marked by you","id_number":"4","unlock_id":"20066","unlock_requirement":"Click to unlock for 15 Ability Points"}
-function svm_ep:menu/moves/add_ability/main {"name":"Helping Hand","use_requirement":"Requires 15 mana for each mob","description":"Shoots a regenerating orb to each mob marked by you","id_number":"5","unlock_id":"20067","unlock_requirement":"Click to unlock for 25 Ability Points"}
-function svm_ep:menu/moves/add_ability/main {"name":"Immortality","use_requirement":"Requires 250 mana","description":"Gives massive healing each time you take damage","id_number":"6","unlock_id":"20068","unlock_requirement":"Click to unlock for 175 Ability Points"}

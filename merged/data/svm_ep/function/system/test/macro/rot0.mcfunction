@@ -1,1 +1,0 @@
-$execute at @s run rotate @s ~$(c) ~$(v)

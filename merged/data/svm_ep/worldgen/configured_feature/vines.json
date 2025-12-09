@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:random_patch",
-  "config": {
-    "tries": 150,
-    "xz_spread": 5,
-    "y_spread": 5,
-    "feature": "minecraft:vines"
-  }
-}

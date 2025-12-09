@@ -1,2 +1,0 @@
-function svm_ep:items/ability/ui_new with entity @s SelectedItem.components."minecraft:custom_data".'svm_ep.item_ability'
-execute unless items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.item_ability:{}}] run return run function svm_ep:player/update_slot

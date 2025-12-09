@@ -1,1 +1,0 @@
-$tellraw @s [{"text":"| ","color":"gray"},{"text":"Not enough ability points","color":"red"},{"text":"! ","color":"gray"},{"score":{"name":"@s","objective":"svm_ep.ability_points"},"bold":true,"color":"white"},{"text":"/","color":"gray"},{"text":"$(cost)","bold":true,"color":"white"}]

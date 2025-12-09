@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#svm_ep:logs",
-    "#svm_ep:stripped_logs",
-    "#svm_ep:wood",
-    "#svm_ep:stripped_wood"
-  ]
-}

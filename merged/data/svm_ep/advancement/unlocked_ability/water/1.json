@@ -1,8 +1,0 @@
-{
-  "parent": "svm_ep:unlocked_ability/all",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
-    }
-  }
-}

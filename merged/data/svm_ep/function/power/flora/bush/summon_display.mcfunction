@@ -1,1 +1,0 @@
-execute summon minecraft:item_display at @s run function svm_ep:power/flora/bush/summon_display2

@@ -1,1 +1,0 @@
-tellraw @s [{"text":"| ","color":"gray"},{"text":"Ability is already unlocked","color":"red"},{"text":"!","color":"gray"}]

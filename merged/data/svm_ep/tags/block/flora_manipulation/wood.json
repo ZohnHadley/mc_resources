@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-     "#svm_ep:wood_and_logs",
-     "minecraft:mangrove_roots",
-     "minecraft:bamboo_block",
-     "minecraft:stripped_bamboo_block"
-    ]
-}

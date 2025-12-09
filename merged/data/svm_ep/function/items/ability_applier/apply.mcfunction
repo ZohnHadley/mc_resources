@@ -1,3 +1,0 @@
-scoreboard players set @s svm_ep.using_move 31514357
-# OLD WITH LORE $item modify entity @s weapon.mainhand [{"function":"minecraft:set_lore","entity":"this","lore":[{"text":"$(name)","color":"$(color)","italic":true,"bold":true},{"text":"| $(description)","color":"gray","italic":false},{"text":"| Requires $(cost) mana","color":"gray","italic":false},{"text":"| Shift to use","color":"gray","italic":false},{"text": "| Shifting enables the ability while using fighting style abilities","color":"gray","italic":true}],"mode":"append"},{"function":"minecraft:set_custom_data","tag":"{svm_ep.item_ability:{id:$(id)}}"}]
-$item modify entity @s weapon.mainhand [{"function":"minecraft:set_custom_data","tag":"{svm_ep.item_ability:{id:$(id)}}"}]

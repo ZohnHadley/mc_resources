@@ -1,7 +1,0 @@
-{
-	"replace": false,
-	"values": [
-		"input:sprint/end",
-		"svm_ep:player/release/sprint"
-	]
-}

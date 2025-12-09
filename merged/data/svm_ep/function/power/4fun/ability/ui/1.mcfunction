@@ -1,5 +1,0 @@
-$title @s actionbar [$(mana_display),{"text":" M","color":"#7F0000"},{"text":"a","color":"#A00A0A"},{"text":"l","color":"#BD2229"},{"text":"e","color":"#D03638"},{"text":"v","color":"#DF4C4E"},{"text":"o","color":"#F36B6D"},{"text":"l","color":"#FF8B8C"},{"text":"e","color":"#FFAAAB"},{"text":"n","color":"#FF8B8C"},{"text":"t S","color":"#F36B6D"},{"text":"h","color":"#DF4C4E"},{"text":"r","color":"#D03638"},{"text":"i","color":"#BD2229"},{"text":"n","color":"#A00A0A"},{"text":"e ","color":"#7F0000"},{"text":"|","color":"gray"}]
-
-execute as @s[scores={svm_ep.p.4fun_ability_01_delay=1..}] run scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.4fun_ability_01_delay
-execute as @s[scores={svm_ep.p.4fun_ability_01_delay=1..}] run function svm_ep:power/delay
-$title @s[scores={svm_ep.p.4fun_ability_01_delay=1..}] actionbar [$(mana_display),{"text":" Malevolent Shrine ","strikethrough":true,"color":"dark_gray"},{"text":"| ","color":"gray"},{"score":{"name":"%cooldown1","objective":"svm_ep.numbers"},"color":"red"},{"text":".","color":"red"},{"score":{"name":"%cooldown2","objective":"svm_ep.numbers"},"color":"red"}]

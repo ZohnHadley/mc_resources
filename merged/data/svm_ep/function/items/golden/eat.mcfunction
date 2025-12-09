@@ -1,9 +1,0 @@
-scoreboard players set @s svm_ep.using_move 31514357
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.golden_beetroot:1b}}}}] run function svm_ep:items/golden/eat_beetroot
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.golden_bone:1b}}}}] run function svm_ep:items/golden/eat_bone
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.golden_eye:1b}}}}] run function svm_ep:items/golden/eat_eye
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.golden_flesh:1b}}}}] run function svm_ep:items/golden/eat_flesh
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.golden_heart:1b}}}}] run function svm_ep:items/golden/eat_heart
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.golden_pearl:1b}}}}] run function svm_ep:items/golden/eat_pearl
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.golden_steak:1b}}}}] run function svm_ep:items/golden/eat_steak
-item modify entity @s weapon svm_ep:consume

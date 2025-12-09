@@ -1,1 +1,0 @@
-loot give @s loot svm_ep:items/power_reseter

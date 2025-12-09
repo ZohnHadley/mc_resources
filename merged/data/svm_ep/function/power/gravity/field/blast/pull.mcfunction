@@ -1,2 +1,0 @@
-execute at @s run tp @e[distance=..3,type=!#svm_ep:gravity_no_repel,tag=!svm_ep.no_gravity,tag=!immune] ~ ~-0.2 ~
-execute unless block ~ ~ ~ #svm_ep:no_physical_hitbox summon item_display run function svm_ep:power/gravity/field/block/setup

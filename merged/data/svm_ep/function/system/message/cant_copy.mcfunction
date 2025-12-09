@@ -1,1 +1,0 @@
-tellraw @s [{"text":"| ","color":"gray"},{"text":"Cannot copy","color":"red"},{"text":"!","color":"gray"}]

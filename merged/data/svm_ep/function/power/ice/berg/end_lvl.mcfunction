@@ -1,3 +1,0 @@
-tellraw @s ["",{"text":"|","color":"gray"},{"text":" R","color":"aqua"},{"text":"e","color":"#88FFFF"},{"text":"ach","color":"#AFFFFF"},{"text":"ed ma","color":"#CEFFFF"},{"text":"x s","color":"#AFFFFF"},{"text":"iz","color":"#88FFFF"},{"text":"e! ","color":"aqua"},{"text":"(","color":"gray"},{"text":"to im","color":"#BBBBBB"},{"text":"prov","color":"#C7C7C7"},{"text":"e, g","color":"#D4D4D4"},{"text":"e","color":"#E9E9E9"},{"text":"t m","color":"#F6F6F6"},{"text":"o","color":"#E9E9E9"},{"text":"re ","color":"#D4D4D4"},{"text":"XP level","color":"#C7C7C7"},{"text":"s","color":"#BBBBBB"},{"text":")","color":"gray"}]
-
-function svm_ep:power/ice/berg/end_charge

@@ -1,1 +1,0 @@
-$execute unless score @s svm_ep.p.copy_ability_$(id)_count matches 0.. run scoreboard players set @s svm_ep.p.copy_ability_$(id)_count 0

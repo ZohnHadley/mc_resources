@@ -1,1 +1,0 @@
-$dialog show @s {type:"minecraft:multi_action",title:{text:"Power Chooser",color:"red"},after_action:"close",columns:3,can_close_with_escape:1,pause:1,actions:$(powers)}

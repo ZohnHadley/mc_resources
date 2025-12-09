@@ -1,1 +1,0 @@
-$execute if data storage svm_ep:time_saves timestamp.$(id) run scoreboard players set @s svm_ep.numbers 1

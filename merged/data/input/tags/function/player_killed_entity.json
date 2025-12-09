@@ -1,6 +1,0 @@
-{
-	"replace": false,
-	"values": [
-		"ci:input/player_killed_entity"
-	]
-}

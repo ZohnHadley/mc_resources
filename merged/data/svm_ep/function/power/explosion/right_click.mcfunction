@@ -1,9 +1,0 @@
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.explosion_staff:1b}}}},scores={svm_ep.p.explosion_ability_10_delay=1..}] unless entity @s[scores={svm_ep.p.explosion_destroyer_uncharge_delay=1..}] run scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.explosion_ability_10_delay
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.explosion_staff:1b}}}},scores={svm_ep.p.explosion_ability_10_delay=1..}] unless entity @s[scores={svm_ep.p.explosion_destroyer_uncharge_delay=1..}] run function svm_ep:power/delay
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.explosion_staff:1b}}}},scores={svm_ep.p.explosion_ability_10_delay=1..}] unless entity @s[scores={svm_ep.p.explosion_destroyer_uncharge_delay=1..}] run tellraw @s ["",{"text":"On delay! ","color":"red"},{"score":{"name":"%cooldown1","objective":"svm_ep.numbers"},"color":"red"},{"text":".","color":"red"},{"score":{"name":"%cooldown2","objective":"svm_ep.numbers"},"color":"red"},{"text":"s","color":"red"}]
-
-execute as @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{svm_ep.explosion_staff:1b}}}}}] as @s[scores={svm_ep.p.explosion_destroyer_uncharge_delay=2..}] run function svm_ep:power/explosion/destroyer/cancel
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.explosion_staff:1b}}}}] as @s[scores={svm_ep.mana=1..}] as @s[scores={svm_ep.p.explosion_destroyer_uncharge_delay=2..}] run function svm_ep:power/explosion/destroyer/charge
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.explosion_staff:1b}}}}] unless entity @s[scores={svm_ep.p.explosion_ability_10_delay=1..}] as @s[scores={svm_ep.mana=250..}] run function svm_ep:power/explosion/ability/use/10
-
-

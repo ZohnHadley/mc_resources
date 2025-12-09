@@ -1,4 +1,0 @@
-execute as @s[scores={svm_ep.selected_ability=9997,svm_ep.mana=100..}] unless entity @s[scores={svm_ep.non_power.ability_9997_delay=1..}] unless entity @s[scores={svm_ep.using_move=1..}] run function svm_ep:non_power/ability/use/9997
-execute as @s[scores={svm_ep.selected_ability=9996,svm_ep.mana=50..}] unless entity @s[scores={svm_ep.non_power.ability_9996_delay=1..}] unless entity @s[scores={svm_ep.using_move=1..}] run function svm_ep:non_power/ability/use/9996
-execute as @s[scores={svm_ep.selected_ability=9995,svm_ep.mana=1..}] unless entity @s[scores={svm_ep.non_power.ability_9995_delay=1..}] unless entity @s[scores={svm_ep.using_move=1..}] run function svm_ep:non_power/ability/use/9995
-execute as @s[scores={svm_ep.selected_ability=9994,svm_ep.mana=10..}] unless entity @s[scores={svm_ep.non_power.ability_9994_delay=1..}] unless entity @s[scores={svm_ep.using_move=1..}] run function svm_ep:non_power/ability/use/9994

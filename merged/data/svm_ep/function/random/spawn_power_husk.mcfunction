@@ -1,1 +1,0 @@
-execute summon husk run function svm_ep:npc/spawn/power_user

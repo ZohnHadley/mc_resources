@@ -1,1 +1,0 @@
-execute at @s positioned ~ ~0.5 ~ align y run tp @s ~ ~ ~

@@ -1,5 +1,0 @@
-scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.copy_ability_27_delay
-function svm_ep:system/cooldown/calculate
-$execute unless score %cooldown1 svm_ep.numbers matches 1.. run return run title @s actionbar [$(mana_display),{"text":" "},{"text":"I","color":"#80d0e0"},{"text":"c","color":"#fafaff"},{"text":"e","color":"#80d0e0"},{"text":" | ","color":"gray"},{"score":{"name":"@s","objective":"svm_ep.p.copy_ability_27_count"},"color":"#FFBA00"},{"text":" |","color":"gray"}]
-function svm_ep:power/delay
-$title @s actionbar [$(mana_display),{"text":" ","strikethrough":true,"color":"#4f4d4d"},{"text":"I","strikethrough":true,"color":"#4d4d4d"},{"text":"c","strikethrough":true,"color":"#9c9c9c"},{"text":"e","strikethrough":true,"color":"#4d4d4d"},{"text":" ","strikethrough":true,"color":"#4f4d4d"},{"text":"| ","color":"gray"},{"score":{"name":"@s","objective":"svm_ep.p.copy_ability_27_count"},"color":"#FFBA00"},{"text":" |","color":"gray"},$(cooldown_display)]

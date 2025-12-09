@@ -1,2 +1,0 @@
-execute unless score doBlocksDestroy svm_ep.gamerule matches 0 unless block ~ ~ ~ #svm_ep:indestructable run fill ~ ~ ~ ~ ~ ~ air destroy
-#execute if entity @a[tag=tester] run setblock ~ ~ ~ brown_concrete

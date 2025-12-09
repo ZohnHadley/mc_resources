@@ -1,2 +1,0 @@
-$execute if data storage ci:items sections[{id:$(id)}] run return run tellraw @s {"text":"[!] ID already in use!",color:red}
-$data modify storage ci:items sections append value {id:$(id),"label":{"text":"$(name)","color":"$(color)"},"width":140,"action":{"type":"minecraft:run_command","command":'function ci:dialog/items/open_section {id:$(id),name:"$(name)",color:"$(color)"}'}}

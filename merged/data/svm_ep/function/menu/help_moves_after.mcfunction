@@ -1,2 +1,0 @@
-#tellraw @s ["",{"text":"| [","color":"gray"},{"text":"Unbind Slot","color":"#FF4988","click_event":{"action":"run_command","command":"/trigger svm_ep.menu set 10000"}},{"text":"]","color":"gray"}]
-#function svm_ep:system/message/ability_points

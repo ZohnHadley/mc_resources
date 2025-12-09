@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/azalea_leaves"},
-            { "model": "block/azalea_leaves2"},
-	    { "model": "block/azalea_leaves3"}
-        ]
-    }
-}

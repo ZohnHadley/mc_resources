@@ -1,2 +1,0 @@
-team modify svm_ep.cherry_guardians prefix [{"text":" C","color":"#FF336F"},{"text":"h","color":"#FF66AE"},{"text":"e","color":"#FF86B6"},{"text":"r","color":"#FFA2C9"},{"text":"r","color":"#FFD3E2"},{"text":"y","color":"#FFA2C9"},{"text":" Cl","color":"#FF86B6"},{"text":"a","color":"#FF66AE"},{"text":"n","color":"#FF336F"},{"text":" - ","color":"gray"}]
-team modify svm_ep.cherry_guardians suffix {text:" ",color:"gray"}

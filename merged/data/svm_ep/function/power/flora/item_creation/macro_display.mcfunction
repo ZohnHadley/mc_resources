@@ -1,1 +1,0 @@
-$dialog show @s svm_ep:flora_items/$(id)

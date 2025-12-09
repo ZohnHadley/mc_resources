@@ -1,1 +1,0 @@
-$function svm_ep:items/chooser/choose_choose with storage svm_ep:power id[$(selected)]

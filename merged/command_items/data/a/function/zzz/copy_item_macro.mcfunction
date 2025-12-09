@@ -1,2 +1,0 @@
-$summon minecraft:item ~ ~1 ~ {Item:$(item)}
-$tellraw @s ["",{"text":"["},{"text":"Copy Command","color":"green","click_event":{"action":"copy_to_clipboard","value":'/summon minecraft:item ~ ~1 ~ {Item:$(item)}'}},{"text":"]"}]

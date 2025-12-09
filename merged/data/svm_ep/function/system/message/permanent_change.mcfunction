@@ -1,1 +1,0 @@
-tellraw @s [{"text":"| ","color":"gray"},{"text":"This change is permanent","color":"red"},{"text":"!","color":"gray"}]

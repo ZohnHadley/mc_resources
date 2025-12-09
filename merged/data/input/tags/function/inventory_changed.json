@@ -1,6 +1,0 @@
-{
-	"replace": false,
-	"values": [
-		"ci:input/inventory_changed"
-	]
-}

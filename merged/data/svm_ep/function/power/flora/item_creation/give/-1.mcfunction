@@ -1,9 +1,0 @@
-give @s[scores={svm_ep.p.flora_item=1}] minecraft:stick
-give @s[scores={svm_ep.p.flora_item=2}] minecraft:wheat_seeds
-give @s[scores={svm_ep.p.flora_item=3}] minecraft:seagrass
-give @s[scores={svm_ep.p.flora_item=4}] minecraft:sugar_cane
-give @s[scores={svm_ep.p.flora_item=5}] minecraft:short_grass
-give @s[scores={svm_ep.p.flora_item=6}] minecraft:lily_pad
-give @s[scores={svm_ep.p.flora_item=7}] minecraft:glow_lichen
-give @s[scores={svm_ep.p.flora_item=8}] minecraft:bone_meal
-give @s[scores={svm_ep.p.flora_item=9}] minecraft:bush

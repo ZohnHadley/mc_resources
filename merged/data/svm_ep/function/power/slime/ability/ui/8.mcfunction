@@ -1,4 +1,0 @@
-$title @s actionbar [$(mana_display),{"text":" L","color":"green"},{"text":"iv","color":"#9CFF69"},{"text":"in","color":"#CDFF80"},{"text":"g","color":"#E9FF92"},{"text":" Sl","color":"#CDFF80"},{"text":"im","color":"#9CFF69"},{"text":"e ","color":"green"},{"text":"|","color":"gray"}]
-execute as @s[scores={svm_ep.p.slime_ability_08_delay=1..}] run scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.slime_ability_08_delay
-execute as @s[scores={svm_ep.p.slime_ability_08_delay=1..}] run function svm_ep:power/delay
-$title @s[scores={svm_ep.p.slime_ability_08_delay=1..}] actionbar [$(mana_display),{"text":" Living Slime ","strikethrough":true,"color":"dark_gray"},{"text":"|","color":"gray"},$(cooldown_display)]

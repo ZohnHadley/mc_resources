@@ -1,1 +1,0 @@
-advancement revoke @s only input:using_item/tick

@@ -1,1 +1,0 @@
-advancement revoke @s only svm_ep:data/using_ability_input

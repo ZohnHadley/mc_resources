@@ -1,1 +1,0 @@
-scoreboard players set @s svm_ep.using_move 700

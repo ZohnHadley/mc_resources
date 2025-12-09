@@ -1,1 +1,0 @@
-tellraw @s [{"text":"| ","color":"gray"},{"text":"You're holding an item","color":"red"},{"text":"!","color":"gray"}]

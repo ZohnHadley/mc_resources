@@ -1,1 +1,0 @@
-$execute as @e[tag=!svm_ep.no_gravity,tag=!svm_ep.gravity_user,type=!#svm_ep:gravity_no_repel,distance=0.01..$(effect_range),tag=!executor] run function svm_ep:power/gravity/field/size/reverted/in_range

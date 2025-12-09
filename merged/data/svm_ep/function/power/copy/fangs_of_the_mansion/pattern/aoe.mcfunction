@@ -1,1 +1,0 @@
-execute at @e[tag=!executor,distance=..25,sort=nearest,limit=20,type=!#svm_ep:technical] summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup

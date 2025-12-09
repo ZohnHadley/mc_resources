@@ -1,1 +1,0 @@
-function svm_ep:menu/reset_cds_player

@@ -1,1 +1,0 @@
-execute at @s as @e[team=!svm_ep.cherry_guardians,distance=..15,type=!#svm_ep:technical] at @s on attacker as @e[tag=svm_ep.npc_cherry_guardian,sort=nearest,limit=3] run function svm_ep:team/cherry_guardians/target

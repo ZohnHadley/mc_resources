@@ -1,1 +1,0 @@
-tellraw @s [{"text":"| ","color":"gray"},{"text":"Not enough mana","color":"red"},{"text":"!","color":"gray"}]

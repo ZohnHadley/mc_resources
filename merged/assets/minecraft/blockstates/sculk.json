@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/sculk_default", "weight": 5 },
-            { "model": "block/sculk_grass", "weight": 1 }
-        ]
-    }
-}
