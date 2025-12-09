@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"input:using_item/click",
+		"ci:input/use_item",
+		"svm_ep:player/use_item"
+	]
+}

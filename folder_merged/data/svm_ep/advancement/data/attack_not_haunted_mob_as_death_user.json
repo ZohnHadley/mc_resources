@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "attack_mob": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"svm_ep.death_user\"]}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "svm_ep.e.haunted": {
+                  "min": 7200
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "attack_mob"
+    ]
+  ],
+  "rewards": {
+    "function": "svm_ep:power/death/memento_mori/attack_not_haunted"
+  }
+}

@@ -1,0 +1,2 @@
+execute at @s run playsound minecraft:entity.player.attack.strong ambient @a[distance=..20] ~ ~ ~ 6 0
+execute at @s run playsound minecraft:entity.generic.explode ambient @a[distance=..20] ~ ~ ~ 0.5 2

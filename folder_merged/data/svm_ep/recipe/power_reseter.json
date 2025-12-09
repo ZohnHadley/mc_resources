@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:ender_pearl"
+    ],
+    [
+      "minecraft:redstone"
+    ],
+    [
+      "minecraft:redstone"
+    ],
+    [
+      "minecraft:redstone"
+    ],
+    [
+      "minecraft:redstone"
+    ],
+    [
+      "minecraft:redstone"
+    ],
+    [
+      "minecraft:redstone"
+    ],
+    [
+      "minecraft:redstone"
+    ],
+    [
+      "minecraft:redstone"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:custom_data": "{svm_ep.item_to_clear:1b,svm_ep.kill:1b}",
+      "minecraft:custom_name": {
+        "text": "Power Reseter",
+        "color": "red",
+          "italic": false
+      },
+      "minecraft:item_model": "svm_ep:power_reseter"
+    }
+  }
+}

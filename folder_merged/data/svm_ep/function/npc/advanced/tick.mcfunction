@@ -1,0 +1,1 @@
+execute as @s[tag=svm_ep.power_user] run function svm_ep:npc/advanced/power_user/tick

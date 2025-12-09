@@ -1,0 +1,1 @@
+scoreboard players operation @s svm_ep.selected_ability = @s svm_ep.p.flora_selected_climate_ability

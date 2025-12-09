@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:notice",
+  "title": [{"text":"I","color":"#56ff61"},{"text":"t","color":"#76fe7f"},{"text":"e","color":"#97fd9e"},{"text":"m","color":"#b8fcbc"},{"text":"s","color":"#d9fbdb"},{"text":" ","color":"#fafafa"},{"text":"I","color":"#d1fbd3"},{"text":"n","color":"#a8fcad"},{"text":"f","color":"#7ffd87"},{"text":"o","color":"#56ff61"}],
+  "external_title": {"text":"Ice Breaker","color":"#80FFFF","bold":false},
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:paper",
+        "components": {
+          "minecraft:item_model": "svm_ep:hammer_ice"
+        }
+      },
+      "description": {
+        "text": "Ice Breaker",
+        "color": "#80FFFF"
+      },
+      "show_decorations": false,
+      "show_tooltip": false
+    },
+    {"type": "minecraft:plain_message","contents": {"text": ""}},
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "A hammer made of blue ice, extremely durable",
+        "color": "#dadbe2",
+        "italic": true
+      }
+    },
+    {"type": "minecraft:plain_message","contents": {"text": ""}},
+    {"type": "minecraft:plain_message","contents": {"text": ""}},
+    {"type": "minecraft:plain_message","contents": {"text": ""}},
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:paper",
+        "components": {
+          "minecraft:item_model": "minecraft:bundle"
+        }
+      },
+      "description": {
+        "text": "Obtainment",
+        "bold": true,
+        "color": "#d1b8ff"
+      },
+      "show_decorations": false,
+      "show_tooltip": false
+    },
+    {"type": "minecraft:plain_message", "contents": "Found in Cold Temples in Paradise Dimension"}
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "action": {
+    "label": [{"text":"⚔","bold":true,"color":"#be8fff"},{"text":" & ","bold":false,"color":"#be8fff"},{"text":"⛏","bold":true,"color":"#be8fff"},{"text":" Weapons & Tools","bold":false,"color":"#e9d9ff"}],
+    "width": 120,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "svm_ep:items_info/weapon_tool"
+    }
+  }
+}

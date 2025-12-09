@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "svm_ep:cold_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 10335312,
+    "spacing": 40,
+    "separation": 27,
+    "type": "minecraft:random_spread"
+  }
+}

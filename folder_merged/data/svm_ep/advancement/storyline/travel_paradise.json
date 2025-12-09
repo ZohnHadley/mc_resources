@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish",
+      "components": {
+        "minecraft:item_model": "svm_ep:golden/pearl"
+      }
+    },
+    "title": {
+      "text": "Paradise!",
+      "color": "white",
+      "bold": false
+    },
+    "description": {
+      "text": "Travel to Paradise by eating a Golden Pearl",
+      "color": "green",
+      "bold": false,
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "svm_ep:storyline/root",
+  "criteria": {
+    "travel_paradise": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "svm_ep:paradise"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "travel_paradise"
+    ]
+  ],
+  "rewards": {
+    "function": "svm_ep:advancements/generic_reward"
+  }
+}

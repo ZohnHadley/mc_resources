@@ -1,0 +1,15 @@
+{
+  "name": "svm_ep:clock_tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "location": "svm_ep:clock_tower",
+        "processors": "svm_ep:clock_tower",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "svm_ep:harpie_wings",
+        "use_player_texture": false
+      }
+    ]
+  }
+}

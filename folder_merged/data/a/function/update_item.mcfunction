@@ -1,0 +1,13 @@
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.katana:1b}] run return run item modify entity @s weapon.mainhand svm_ep:fix/set_katana_data
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.gauntlet:1b}] run return run item modify entity @s weapon.mainhand svm_ep:fix/set_gauntlet_data
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.has_power_ability:1b}] if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.power_ability:1b}] run return run item modify entity @s weapon.mainhand [{"function": "minecraft:set_custom_data","tag":"{svm_ep.has_power_ability:0,svm_ep.item_ability:{id:phasing_distortion}}"}]
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.has_power_ability:1b}] if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.power_ability:2b}] run return run item modify entity @s weapon.mainhand [{"function": "minecraft:set_custom_data","tag":"{svm_ep.has_power_ability:0,svm_ep.item_ability:{id:lightning_flash}}"}]
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.has_power_ability:1b}] if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.power_ability:3b}] run return run item modify entity @s weapon.mainhand [{"function": "minecraft:set_custom_data","tag":"{svm_ep.has_power_ability:0,svm_ep.item_ability:{id:piercing_thorns}}"}]
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.has_power_ability:1b}] if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.power_ability:4b}] run return run item modify entity @s weapon.mainhand [{"function": "minecraft:set_custom_data","tag":"{svm_ep.has_power_ability:0,svm_ep.item_ability:{id:weight_neutralizer}}"}]
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.has_power_ability:1b}] if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.power_ability:5b}] run return run item modify entity @s weapon.mainhand [{"function": "minecraft:set_custom_data","tag":"{svm_ep.has_power_ability:0,svm_ep.item_ability:{id:gravity_inverter}}"}]
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.has_power_ability:1b}] if items entity @s weapon.mainhand *[minecraft:custom_data~{svm_ep.power_ability:6b}] run return run item modify entity @s weapon.mainhand [{"function": "minecraft:set_custom_data","tag":"{svm_ep.has_power_ability:0,svm_ep.item_ability:{id:thunder_shot}}"}]
+
+
+
+tellraw @s [{"text":"No item to update detected","color":"blue"}]
+return 0

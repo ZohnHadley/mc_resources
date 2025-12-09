@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ddd",
+    "dpd",
+    "dgd"
+  ],
+  "key": {
+    "d": "minecraft:water_bucket",
+    "p": "minecraft:paper",
+    "g": "minecraft:heart_of_the_sea"
+  },
+  "result": {
+    "id": "minecraft:flower_banner_pattern",
+    "components": {
+      "minecraft:custom_data": "{svm_ep.item:{id:power_scroll,power:water},tick:{offhand:{command:'function svm_ep:items/scroll/held_offhand',swap_items_on_trigger:{}}}}",
+      "minecraft:custom_name": {
+        "text": "Water Scroll",
+        "color": "#0390fc",
+          "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Put in your offhand to obtain water powers",
+          "type": "text",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "text": "(Doesn't work if user has any of the powers)",
+          "type": "text",
+          "color": "gray"
+        }
+      ],
+      "minecraft:enchantments": {
+        "minecraft:lure": 1
+      }
+    }
+  }
+}

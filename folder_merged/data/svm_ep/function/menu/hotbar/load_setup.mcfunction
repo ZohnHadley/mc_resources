@@ -1,0 +1,9 @@
+$execute store result score @s svm_ep.ability0 run data get storage svm_ep:ability_hotbar $(id).$(slot).slot0 1
+$execute store result score @s svm_ep.ability1 run data get storage svm_ep:ability_hotbar $(id).$(slot).slot1 1
+$execute store result score @s svm_ep.ability2 run data get storage svm_ep:ability_hotbar $(id).$(slot).slot2 1
+$execute store result score @s svm_ep.ability3 run data get storage svm_ep:ability_hotbar $(id).$(slot).slot3 1
+$execute store result score @s svm_ep.ability4 run data get storage svm_ep:ability_hotbar $(id).$(slot).slot4 1
+$execute store result score @s svm_ep.ability5 run data get storage svm_ep:ability_hotbar $(id).$(slot).slot5 1
+$execute store result score @s svm_ep.ability6 run data get storage svm_ep:ability_hotbar $(id).$(slot).slot6 1
+$execute store result score @s svm_ep.ability7 run data get storage svm_ep:ability_hotbar $(id).$(slot).slot7 1
+$execute store result score @s svm_ep.ability8 run data get storage svm_ep:ability_hotbar $(id).$(slot).slot8 1

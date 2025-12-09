@@ -1,0 +1,1 @@
+tellraw @s [{"text":"| ","color":"gray"},{"text":"This ability has a custom unlock requirement","color":"red"},{"text":"!","color":"gray"},{"text":" (Check unlock description)","color":"white","italic":true}]

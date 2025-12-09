@@ -1,0 +1,10 @@
+give @s[scores={svm_ep.p.flora_item=1}] minecraft:moss_block
+give @s[scores={svm_ep.p.flora_item=2}] minecraft:azalea
+give @s[scores={svm_ep.p.flora_item=3}] minecraft:flowering_azalea
+give @s[scores={svm_ep.p.flora_item=4}] minecraft:azalea_leaves
+give @s[scores={svm_ep.p.flora_item=5}] minecraft:flowering_azalea_leaves
+give @s[scores={svm_ep.p.flora_item=6}] minecraft:hanging_roots
+give @s[scores={svm_ep.p.flora_item=7}] minecraft:small_dripleaf
+give @s[scores={svm_ep.p.flora_item=8}] minecraft:big_dripleaf
+give @s[scores={svm_ep.p.flora_item=9}] minecraft:spore_blossom
+give @s[scores={svm_ep.p.flora_item=10}] minecraft:glow_berries

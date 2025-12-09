@@ -1,0 +1,1 @@
+$function svm_ep:items/chooser/held_display with storage svm_ep:power id[$(selected)]

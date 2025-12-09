@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "input": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "message:revoke_all"
+  }
+}

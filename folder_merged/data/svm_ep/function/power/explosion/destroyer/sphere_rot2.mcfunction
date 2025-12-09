@@ -1,0 +1,34 @@
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run function svm_ep:power/explosion/destroyer/sphere_rot3
+execute at @s run tp @s ~ ~ ~ ~ ~-11.25

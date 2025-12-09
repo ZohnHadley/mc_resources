@@ -1,0 +1,2 @@
+execute at @s if entity @e[tag=svm_ep.paradise_connector_spawn,distance=..15] run advancement grant @s only svm_ep:storyline/open_connector_of_the_paradise
+execute at @s as @e[tag=svm_ep.paradise_connector_spawn,distance=..15] at @s run function svm_ep:block/paradise_connector/replace_spawner

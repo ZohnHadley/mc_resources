@@ -1,0 +1,1 @@
+tellraw @s [{"text":"| ","color":"gray"},{"text":"On cooldown","color":"red"},{"text":"!","color":"gray"}]

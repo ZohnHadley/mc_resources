@@ -1,0 +1,2 @@
+execute align xyz positioned ~0.5 ~0.5 ~0.5 run function svm_ep:power/ice/place
+execute align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #minecraft:ice unless entity @e[tag=svm_ep.placed_ice_slow,distance=..3.5] run summon minecraft:marker ~ ~ ~ {Tags:["svm_ep.placed_ice_slow","svm_ep.no_tick"]}

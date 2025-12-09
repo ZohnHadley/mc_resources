@@ -1,0 +1,4 @@
+$title @s actionbar [$(mana_display),{"text":" S","color":"#8EFF54"},{"text":"li","color":"#BFFF6F"},{"text":"my R","color":"#DBF78A"},{"text":"ai","color":"#BFFF6F"},{"text":"n ","color":"#8EFF54"},{"text":"|","color":"gray"}]
+execute as @s[scores={svm_ep.p.slime_ability_02_delay=1..}] run scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.slime_ability_02_delay
+execute as @s[scores={svm_ep.p.slime_ability_02_delay=1..}] run function svm_ep:power/delay
+$title @s[scores={svm_ep.p.slime_ability_02_delay=1..}] actionbar [$(mana_display),{"text":" S","strikethrough":true,"color":"#99AA84"},{"text":"l","strikethrough":true,"color":"#9EB280"},{"text":"im","strikethrough":true,"color":"#AABA91"},{"text":"y ","strikethrough":true,"color":"#C0C8AF"},{"text":"R","strikethrough":true,"color":"#AABA91"},{"text":"ai","strikethrough":true,"color":"#9EB280"},{"text":"n ","strikethrough":true,"color":"#99AA84"},{"text":"|","color":"gray"},$(cooldown_display)]

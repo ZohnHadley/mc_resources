@@ -1,0 +1,8 @@
+data modify storage svm_ep:menu power.temp.icon set value 'svm_ep:icon/void'
+data modify storage svm_ep:menu power.temp.description set value "Simplified version of Dimensional Travel, born from countless possibilities, limited to combat"
+
+function svm_ep:menu/moves/add_ability/main {"name":"Void Bullet","use_requirement":"Requires 5 mana","description":"Creates a small void projectile which damages mobs that walk into it","id_number":"1","unlock_id":"20075","unlock_requirement":"Unlocked by default"}
+function svm_ep:menu/moves/add_ability/main {"name":"Charging Void","use_requirement":"Requires 45 mana","description":"Creates a chargeable projectile in front of you","id_number":"2","unlock_id":"20049","unlock_requirement":"Click to unlock for 10 Ability Points"}
+function svm_ep:menu/moves/add_ability/main {"name":"Void Manipulation","use_requirement":"Requires 10 mana","description":"Launches your closest Void Bullet or Charging Void to the location at your cursor","id_number":"3","unlock_id":"20050","unlock_requirement":"Click to unlock for 5 Ability Points"}
+function svm_ep:menu/moves/add_ability/main {"name":"Void Swap","use_requirement":"Requires 10 mana","description":"After charging the ability, temporarily turns you into a moving void","id_number":"4","unlock_id":"20051","unlock_requirement":"Click to unlock for 10 Ability Points"}
+function svm_ep:menu/moves/add_ability/main {"name":"Black Hole","use_requirement":"Requires 250 mana, holding drains","description":"Creates a massive black hole at cursor, mobs inside it are trapped up to 40 seconds while taking passive damage, void users get 50% less damage from suffocation","id_number":"5","unlock_id":"20052","unlock_requirement":"Click to unlock for 150 Ability Points"}

@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "def",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -0.85,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "def",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Repel Zone",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "tick": {
+                  "offhand": {
+                    "swap_items_on_trigger": {},
+                    "command": "execute as @s[scores={svm_ep.ability_points=250..},advancements={svm_ep:unlocked_ability/gravity/7=false}] run function svm_ep:items/scroll/repel_zone_learn"
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "svm_ep:knowledge_scroll"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "- Power Ability",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "| Put in offhand to learn",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "| Requires Gravity Power",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+

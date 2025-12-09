@@ -1,0 +1,2 @@
+execute unless score replaceBlocks svm_ep.gamerule matches 0 if block ~ ~ ~ #svm_ep:no_physical_hitbox align xyz positioned ~0.5 ~0.5 ~0.5 unless entity @e[tag=svm_ep.slime_barrier,distance=..0.5] summon minecraft:area_effect_cloud run data merge entity @s {Tags:["svm_ep.slime_barrier"],Age:-130,Duration:3,Radius:0.5,potion_contents:{custom_color:8439583}}
+execute if block ~ ~ ~ #svm_ep:no_physical_hitbox run setblock ~ ~ ~ slime_block

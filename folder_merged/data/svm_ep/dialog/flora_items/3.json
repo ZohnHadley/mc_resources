@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [{"text": "climatuh"}],
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:oak_sapling",
+      "components": {
+        "minecraft:item_model": "minecraft:jungle_sapling"
+      }
+    },
+    "description": {
+      "text": "Click on the item name to create it!"
+    },
+    "show_decorations": false,
+    "show_tooltip": false
+  },
+  "after_action": "none",
+  "exit_action": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger svm_ep.menu set 2"
+    }
+  },
+  "columns": 3,
+  "can_close_with_escape": true,
+  "pause": false,
+  "actions": [{"label": {"text": "Jungle Sapling", "color": "#228B22"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 1"}}, {"label": {"text": "Jungle Leaves", "color": "#32CD32"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 2"}}, {"label": {"text": "Jungle Log", "color": "#8B4513"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 3"}}, {"label": {"text": "Vine", "color": "#006400"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 4"}}, {"label": {"text": "Fern", "color": "#4F7942"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 5"}}, {"label": {"text": "Bamboo", "color": "#DAA520"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 6"}}, {"label": {"text": "Melon", "color": "#ADFF2F"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 7"}}, {"label": {"text": "Cocoa Beans", "color": "#8B4513"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 8"}}]
+}

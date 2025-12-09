@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "tick": {
+                  "offhand": {
+                    "show_cooldown": {},
+                    "swap_items_on_trigger": {},
+                    "command": "execute positioned ^ ^ ^2 summon item_display at @s run function svm_ep:power/telekinesis/ground_pull/setup"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

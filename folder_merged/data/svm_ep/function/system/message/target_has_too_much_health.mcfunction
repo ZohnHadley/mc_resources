@@ -1,0 +1,1 @@
+tellraw @s [{"text":"| ","color":"gray"},{"text":"Target has too much health","color":"red"},{"text":"!","color":"gray"}]

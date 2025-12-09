@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "svm_ep.entity_id_slow": {
+      "min": 1
+    }
+  }
+}

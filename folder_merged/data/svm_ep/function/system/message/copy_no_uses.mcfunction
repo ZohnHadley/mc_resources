@@ -1,0 +1,1 @@
+tellraw @s [{"text":"| ","color":"gray"},{"text":"No uses left","color":"red"},{"text":"!","color":"gray"}]

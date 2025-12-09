@@ -1,0 +1,170 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/blue_dye"
+  },
+  "overrides":
+  [
+    {
+      "predicate":
+      {
+        "custom_model_data":1
+      },
+        "model": "item/custom/npc/test/head"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":2
+      },
+        "model": "item/custom/npc/test/body"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":3
+      },
+        "model": "item/custom/npc/test/walk1"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":4
+      },
+        "model": "item/custom/npc/test/walk2"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":5
+      },
+        "model": "item/custom/npc/test/walk3"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":6
+      },
+        "model": "item/custom/npc/test/using_move2"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":7
+      },
+        "model": "item/custom/npc/test/using_move"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":8
+      },
+        "model": "item/custom/particle/impact/0"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":9
+      },
+        "model": "item/custom/particle/impact/1"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":10
+      },
+        "model": "item/custom/particle/impact/2"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":11
+      },
+        "model": "item/custom/particle/impact/3"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":12
+      },
+        "model": "item/custom/particle/impact/4"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":13
+      },
+        "model": "item/custom/particle/impact/5"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":14
+      },
+        "model": "item/custom/particle/impact/6"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":15
+      },
+        "model": "item/custom/particle/impact/7"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":21
+      },
+        "model": "item/custom/npc/gill/head"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":22
+      },
+        "model": "item/custom/npc/gill/body"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":23
+      },
+        "model": "item/custom/npc/gill/walk1"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":24
+      },
+        "model": "item/custom/npc/gill/walk2"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":25
+      },
+        "model": "item/custom/npc/gill/walk3"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":26
+      },
+        "model": "item/custom/npc/gill/using_move2"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":27
+      },
+        "model": "item/custom/npc/gill/using_move"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":28
+      },
+        "model": "item/custom/npc/paradise_trader/head"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"svm_ep:player/shift_click",
+		"svm_ep:player/click/sneak"
+	]
+}

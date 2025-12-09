@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"input:using_item/end",
+		"svm_ep:player/using_item_end"
+	]
+}

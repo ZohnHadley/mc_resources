@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:prismarine_crystals"
+    ],
+    [
+      "minecraft:glowstone_dust"
+    ],
+    [
+      "minecraft:amethyst_shard"
+    ],
+    [
+      "minecraft:paper"
+    ],
+    [
+      "minecraft:redstone_block"
+    ],
+    [
+      "minecraft:lapis_block"
+    ],
+    [
+      "minecraft:emerald_block"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:flower_banner_pattern",
+    "components": {
+      "minecraft:custom_data": "{svm_ep.item:{id:power_scroll,power:gravity},tick:{offhand:{command:'function svm_ep:items/scroll/held_offhand',swap_items_on_trigger:{}}}}",
+      "minecraft:custom_name": {
+        "text": "Gravity Scroll",
+        "color": "#5eff91",
+          "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Put in your offhand to obtain gravitational powers",
+          "type": "text",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "text": "(Doesn't work if user has any of the powers)",
+          "type": "text",
+          "color": "gray"
+        }
+      ],
+      "minecraft:enchantments": {
+        "minecraft:lure": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Harpie Wings",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "svm_ep:harpie_wings",
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "equip_sound": "minecraft:item.armor.equip_elytra",
+                  "asset_id": "svm_ep:harpie_wings",
+                  "dispensable": false,
+                  "swappable": true,
+                  "damage_on_hurt": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{svm_ep.harpie_wings:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

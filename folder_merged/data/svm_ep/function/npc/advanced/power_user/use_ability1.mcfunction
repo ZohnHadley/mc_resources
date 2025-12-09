@@ -1,0 +1,3 @@
+scoreboard players operation @s svm_ep.selected_ability = @s svm_ep.ability0
+function svm_ep:power/use
+scoreboard players set @s svm_ep.p.npc_use_delay1 5

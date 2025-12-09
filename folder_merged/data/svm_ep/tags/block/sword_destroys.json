@@ -1,0 +1,14 @@
+{
+ "replace":false,
+ "values": [
+ "#svm_ep:no_physical_hitbox",
+ "minecraft:bamboo",
+ "minecraft:sugar_cane",
+ "#minecraft:crops",
+ "#minecraft:saplings",
+ "#minecraft:sword_efficient",
+ "#minecraft:small_flowers",
+ "minecraft:bamboo_fence",
+ "#svm_ep:glass"
+ ]
+}

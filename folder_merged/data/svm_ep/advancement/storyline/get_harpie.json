@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_dye",
+      "components": {
+        "minecraft:item_model": "svm_ep:icon/harpie"
+      }
+    },
+    "title": {
+      "text": "Sky High",
+      "color": "white",
+      "bold": false
+    },
+    "description": {
+      "text": "Obtain Harpie powers",
+      "color": "green",
+      "bold": false,
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "svm_ep:storyline/get_power",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "svm_ep:advancements/generic_reward"
+  }
+}

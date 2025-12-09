@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [{"text": "climatuh"}],
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:oak_sapling",
+      "components": {
+        "minecraft:item_model": "minecraft:dark_oak_sapling"
+      }
+    },
+    "description": {
+      "text": "Click on the item name to create it!"
+    },
+    "show_decorations": false,
+    "show_tooltip": false
+  },
+  "after_action": "none",
+  "exit_action": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger svm_ep.menu set 2"
+    }
+  },
+  "columns": 3,
+  "can_close_with_escape": true,
+  "pause": false,
+  "actions": [{"label": {"text": "Dark Oak Sapling", "color": "#3B5E2B"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 1"}}, {"label": {"text": "Dark Oak Leaves", "color": "#355E2B"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 2"}}, {"label": {"text": "Dark Oak Log", "color": "#4F3422"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 3"}}, {"label": {"text": "Lilac", "color": "#B566A5"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 4"}}, {"label": {"text": "Rose Bush", "color": "#C73F52"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 5"}}, {"label": {"text": "Peony", "color": "#D89BC1"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 6"}}, {"label": {"text": "Lily of the Valley", "color": "#E8F3E8"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 7"}}, {"label": {"text": "Apple", "color": "#FF4D4D"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 8"}}, {"label": {"text": "Brown Mushroom", "color": "#8B5A2B"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 9"}}, {"label": {"text": "Red Mushroom", "color": "#D22B2B"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 10"}}]
+}

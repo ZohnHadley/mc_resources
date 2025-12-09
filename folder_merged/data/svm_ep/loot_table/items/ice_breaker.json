@@ -1,0 +1,98 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "id": "def",
+                  "amount": -2.75,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "def",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Ice Breaker",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "svm_ep:hammer_ice"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{svm_ep.ice_breaker:1b}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": " Any attack will cause the ice around the target",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " to shatter and further damage them back",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Smash Attack",
+                  "color": "white",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": " Smashes ice around damaging mobs around",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " damage is dependent on ice around",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " Right-click to activate",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "A hammer made from blue ice, what kind of sorceries is this?",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

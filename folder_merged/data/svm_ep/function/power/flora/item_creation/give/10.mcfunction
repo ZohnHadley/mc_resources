@@ -1,0 +1,10 @@
+give @s[scores={svm_ep.p.flora_item=1}] minecraft:dark_oak_sapling
+give @s[scores={svm_ep.p.flora_item=2}] minecraft:dark_oak_leaves
+give @s[scores={svm_ep.p.flora_item=3}] minecraft:dark_oak_log
+give @s[scores={svm_ep.p.flora_item=4}] minecraft:lilac
+give @s[scores={svm_ep.p.flora_item=5}] minecraft:rose_bush
+give @s[scores={svm_ep.p.flora_item=6}] minecraft:peony
+give @s[scores={svm_ep.p.flora_item=7}] minecraft:lily_of_the_valley
+give @s[scores={svm_ep.p.flora_item=8}] minecraft:apple
+give @s[scores={svm_ep.p.flora_item=9}] minecraft:brown_mushroom
+give @s[scores={svm_ep.p.flora_item=10}] minecraft:red_mushroom

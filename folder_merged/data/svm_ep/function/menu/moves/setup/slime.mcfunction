@@ -1,0 +1,11 @@
+data modify storage svm_ep:menu power.temp.icon set value 'svm_ep:icon/slime'
+data modify storage svm_ep:menu power.temp.description set value "Who would've thought you can teleport with slime?"
+
+function svm_ep:menu/moves/add_ability/main {"name":"Slime Spit","use_requirement":"Requires 10 mana","description":"Shoots a slime spit","id_number":"1","unlock_id":"20075","unlock_requirement":"Unlocked by default"}
+function svm_ep:menu/moves/add_ability/main {"name":"Slimy Rain","use_requirement":"Requires 20 mana","description":"Shoots slime balls around","id_number":"2","unlock_id":"20011","unlock_requirement":"Click to unlock for 10 Ability Points"}
+function svm_ep:menu/moves/add_ability/main {"name":"Slimy Shift","use_requirement":"Requires 25 mana","description":"Teleports you to slime block at cursor","id_number":"4","unlock_id":"20012","unlock_requirement":"Click to unlock for 10 Ability Points"}
+function svm_ep:menu/moves/add_ability/main {"name":"Explosive Slime","use_requirement":"Requires 20 mana","description":"Explodes slime blocks at cursor","id_number":"5","unlock_id":"20013","unlock_requirement":"Click to unlock for 5 Ability Points"}
+function svm_ep:menu/moves/add_ability/main {"name":"Slime Barrier","use_requirement":"Requires 25 mana","description":"Places a slime barrier in-front","id_number":"6","unlock_id":"20014","unlock_requirement":"Click to unlock for 10 Ability Points"}
+function svm_ep:menu/moves/add_ability/main {"name":"Slimy Legs","use_requirement":"Requires 10 mana","description":"Makes you swim faster and jump higher","id_number":"3","unlock_id":"20015","unlock_requirement":"Click to unlock for 5 Ability Points"}
+function svm_ep:menu/moves/add_ability/main {"name":"Slime Extension","use_requirement":"Requires 1 mana, holdable","description":"Creates a block at cursor if there's slime block close to cursor","id_number":"7","unlock_id":"20043","unlock_requirement":"Click to unlock for 15 Ability Points"}
+function svm_ep:menu/moves/add_ability/main {"name":"Living Slime","use_requirement":"Requires 25 mana","description":"Creates a slime out of slime block at cursor, decays after a while","id_number":"8","unlock_id":"20044","unlock_requirement":"Click to unlock for 30 Ability Points"}

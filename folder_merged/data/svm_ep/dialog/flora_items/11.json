@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [{"text": "climatuh"}],
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:oak_sapling",
+      "components": {
+        "minecraft:item_model": "minecraft:acacia_sapling"
+      }
+    },
+    "description": {
+      "text": "Click on the item name to create it!"
+    },
+    "show_decorations": false,
+    "show_tooltip": false
+  },
+  "after_action": "none",
+  "exit_action": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger svm_ep.menu set 2"
+    }
+  },
+  "columns": 3,
+  "can_close_with_escape": true,
+  "pause": false,
+  "actions": [{"label": {"text": "Acacia Sapling", "color": "#D48C36"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 1"}}, {"label": {"text": "Acacia Leaves", "color": "#99C24D"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 2"}}, {"label": {"text": "Acacia Log", "color": "#BA6C42"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 3"}}, {"label": {"text": "Tall Grass", "color": "#6B8E23"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 4"}}]
+}

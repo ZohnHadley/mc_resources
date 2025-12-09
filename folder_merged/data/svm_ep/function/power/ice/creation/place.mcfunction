@@ -1,0 +1,9 @@
+execute positioned ^ ^ ^0.25 run function svm_ep:power/ice/creation/place_ice
+execute positioned ^0.5 ^ ^0.25 run function svm_ep:power/ice/creation/place_ice
+execute positioned ^-0.5 ^ ^0.25 run function svm_ep:power/ice/creation/place_ice
+execute positioned ^ ^0.5 ^0.25 run function svm_ep:power/ice/creation/place_ice
+execute positioned ^ ^-0.5 ^0.25 run function svm_ep:power/ice/creation/place_ice
+execute positioned ^1.2 ^ ^ run function svm_ep:power/ice/creation/place_ice
+execute positioned ^-1.2 ^ ^ run function svm_ep:power/ice/creation/place_ice
+execute positioned ^ ^1.2 ^ run function svm_ep:power/ice/creation/place_ice
+execute positioned ^ ^-1.2 ^ run function svm_ep:power/ice/creation/place_ice

@@ -1,0 +1,11 @@
+{
+  "parent": "input:all",
+  "criteria": {
+    "shift_click": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "rewards": {
+    "function": "input:player_killed_entity/start"
+  }
+}

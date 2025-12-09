@@ -1,0 +1,1 @@
+$data modify storage svm_ep:player_data player.$(id).$(slot) set from storage svm_ep:ability id.$(ability_number).id

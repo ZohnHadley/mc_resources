@@ -1,0 +1,1 @@
+tellraw @s [{"text":"| ","color":"gray"},{"text":"No targets found","color":"red"},{"text":"!","color":"gray"}]

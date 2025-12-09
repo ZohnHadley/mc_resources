@@ -1,0 +1,1 @@
+$execute at @s run function svm_ep:ability/$(id)/tick

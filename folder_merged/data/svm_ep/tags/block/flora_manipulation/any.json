@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+     "#svm_ep:flora_manipulation/flowers",
+     "#svm_ep:flora_manipulation/leap",
+     "#svm_ep:flora_manipulation/leaves",
+     "#svm_ep:flora_manipulation/moss",
+     "#svm_ep:flora_manipulation/other",
+     "#svm_ep:flora_manipulation/vines",
+     "#svm_ep:flora_manipulation/wood"
+    ]
+}

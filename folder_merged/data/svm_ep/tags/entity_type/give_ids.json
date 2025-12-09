@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:slime",
+    "#svm_ep:can_have/power"
+  ]
+}

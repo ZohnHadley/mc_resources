@@ -1,0 +1,2 @@
+execute as @s[tag=svm_ep.phase_user] unless entity @s[scores={svm_ep.p.phase_ability_10_delay=1..}] at @s run function svm_ep:power/phase/ability/use/10
+advancement revoke @s only svm_ep:passive_phase

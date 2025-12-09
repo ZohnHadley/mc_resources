@@ -1,0 +1,21 @@
+
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_taiga",
+    "minecraft:cold_ocean",
+    "minecraft:deep_cold_ocean",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_beach",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills",
+    "minecraft:grove",
+    "minecraft:frozen_peaks",
+    "minecraft:frozen_river",
+    "minecraft:ice_spikes",
+    "svm_ep:pine_kingdom"
+  ]
+}

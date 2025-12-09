@@ -1,0 +1,1 @@
+data modify storage svm_ep:item data set from entity @s SelectedItem.components.minecraft:custom_data.'svm_ep.item'

@@ -1,0 +1,1 @@
+$dialog show @s {"type":"minecraft:multi_action","title":"Item Sections","pause":false,"after_action":"none","exit_action":{"label":{"text":"Close","color":"red"}},"columns":3,"actions":$(dialogs)}

@@ -1,0 +1,18 @@
+{
+  "parent": "svm_ep:craft/all",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "svm_ep:hardened_sword"
+      }
+    }
+  },
+  "rewards": {
+    "function": "svm_ep:craft/hardened_sword",
+    "loot": [],
+    "recipes": [
+      "svm_ep:sharpening_pebble"
+    ]
+  }
+}

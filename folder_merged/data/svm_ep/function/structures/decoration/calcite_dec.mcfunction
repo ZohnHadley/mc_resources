@@ -1,0 +1,1 @@
+execute if predicate svm_ep:chance/33_percent run place jigsaw svm_ep:calcite_ruins/decoration building_entrance 7 ~ ~ ~

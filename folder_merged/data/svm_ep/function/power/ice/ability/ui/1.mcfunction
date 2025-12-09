@@ -1,0 +1,4 @@
+$title @s actionbar [$(mana_display),{"text":" I","color":"aqua"},{"text":"c","color":"#91FFFF"},{"text":"e","color":"#C1FFFF"},{"text":"b","color":"#E5FFFF"},{"text":"e","color":"#C1FFFF"},{"text":"r","color":"#91FFFF"},{"text":"g ","color":"aqua"},{"text":"|","color":"gray"}]
+execute as @s[scores={svm_ep.p.ice_ability_01_delay=1..}] run scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.ice_ability_01_delay
+execute as @s[scores={svm_ep.p.ice_ability_01_delay=1..}] run function svm_ep:power/delay
+$title @s[scores={svm_ep.p.ice_ability_01_delay=1..}] actionbar [$(mana_display),{"text":" I","color":"#C5C5C5"},{"text":"c","color":"#D2D2D2"},{"text":"e","color":"#E3E3E3"},{"text":"b","color":"#F5F5F5"},{"text":"e","color":"#E3E3E3"},{"text":"r","color":"#D2D2D2"},{"text":"g ","color":"#C5C5C5"},{"text":"|","color":"gray"},$(cooldown_display)]

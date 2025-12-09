@@ -1,0 +1,4 @@
+$title @s actionbar [$(mana_display),{"text":" F","color":"#F3FFBF"},{"text":"e","color":"#FEFFDC"},{"text":"ather L","color":"#FFFFF7"},{"text":"if","color":"#FEFFDC"},{"text":"t ","color":"#F3FFBF"},{"text":"|","color":"gray"}]
+execute as @s[scores={svm_ep.p.harpie_ability_04_delay=1..}] run scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.harpie_ability_04_delay
+execute as @s[scores={svm_ep.p.harpie_ability_04_delay=1..}] run function svm_ep:power/delay
+$title @s[scores={svm_ep.p.harpie_ability_04_delay=1..}] actionbar [$(mana_display),{"text":" F","strikethrough":true,"color":"#C4C4C4"},{"text":"e","strikethrough":true,"color":"#A1A1A1"},{"text":"ather ","strikethrough":true,"color":"#797979"},{"text":"Lif","strikethrough":true,"color":"#A1A1A1"},{"text":"t ","strikethrough":true,"color":"#C4C4C4"},{"text":"|","color":"gray"},$(cooldown_display)]

@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+     "minecraft:sweet_berry_bush",
+     "minecraft:cactus",
+     "minecraft:pumpkin",
+     "minecraft:rooted_dirt",
+     "#svm_ep:flora_manipulation/launch"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "input": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "message:root"
+  }
+}

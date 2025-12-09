@@ -1,0 +1,135 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0.05,
+  "effects": {
+    "sky_color": 2107262,
+    "fog_color": 5464200,
+    "water_color": 6264817,
+    "water_fog_color": 1662131,
+    "grass_color": 7387243,
+    "foliage_color": 6527839,
+    "ambient_sound": {
+      "sound_id": ""
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:fox",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:wolf",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 22,
+        "minCount": 3,
+        "maxCount": 12
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 6,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 11,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:cod",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:canyon",
+    "minecraft:cave_extra_underground",
+    "minecraft:cave"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:forest_rock"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "svm_ep:paradise/ore_dirt",
+      "svm_ep:paradise/ore_gravel",
+      "svm_ep:paradise/ore_granite",
+      "svm_ep:paradise/ore_diorite",
+      "svm_ep:paradise/ore_andesite",
+      "svm_ep:paradise/ore_coal_upper",
+      "svm_ep:paradise/ore_coal_lower",
+      "svm_ep:paradise/ore_iron_upper",
+      "svm_ep:paradise/ore_iron_middle",
+      "svm_ep:paradise/ore_iron_small",
+      "svm_ep:paradise/ore_gold",
+      "svm_ep:paradise/ore_redstone",
+      "svm_ep:paradise/ore_diamond",
+      "svm_ep:paradise/ore_diamond_large",
+      "svm_ep:paradise/ore_diamond_buried",
+      "svm_ep:paradise/ore_lapis",
+      "svm_ep:paradise/ore_lapis_buried",
+      "svm_ep:paradise/ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:patch_large_fern",
+      "minecraft:trees_old_growth_pine_taiga",
+      "minecraft:trees_old_growth_spruce_taiga",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_taiga",
+      "minecraft:patch_dead_bush",
+      "minecraft:brown_mushroom_old_growth",
+      "minecraft:red_mushroom_old_growth",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_berry_common",
+      "minecraft:vines",
+      "minecraft:cave_vines",
+      "minecraft:classic_vines_cave_feature",
+      "svm_ep:pine_kingdom/spruce",
+      "svm_ep:pine_kingdom/mega_spruce"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

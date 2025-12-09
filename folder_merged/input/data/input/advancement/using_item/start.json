@@ -1,0 +1,11 @@
+{
+  "parent": "input:all",
+  "criteria": {
+    "input": {
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "rewards": {
+    "function": "input:using_item/start"
+  }
+}

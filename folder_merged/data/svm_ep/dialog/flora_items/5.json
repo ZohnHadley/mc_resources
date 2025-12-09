@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [{"text": "climatuh"}],
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:oak_sapling",
+      "components": {
+        "minecraft:item_model": "minecraft:mushroom_stem"
+      }
+    },
+    "description": {
+      "text": "Click on the item name to create it!"
+    },
+    "show_decorations": false,
+    "show_tooltip": false
+  },
+  "after_action": "none",
+  "exit_action": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger svm_ep.menu set 2"
+    }
+  },
+  "columns": 3,
+  "can_close_with_escape": true,
+  "pause": false,
+  "actions": [{"label": {"text": "Mushroom Stem", "color": "#D2B48C"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 1"}}, {"label": {"text": "Brown Mushroom", "color": "#8B4513"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 2"}}, {"label": {"text": "Red Mushroom", "color": "#8B0000"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 3"}}, {"label": {"text": "Brown Mushroom Block", "color": "#8B4513"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 4"}}, {"label": {"text": "Red Mushroom Block", "color": "#8B0000"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 5"}}]
+}

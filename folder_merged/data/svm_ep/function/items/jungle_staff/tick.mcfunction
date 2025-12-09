@@ -1,0 +1,5 @@
+execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.jungle_staff:1b}}}}] unless score @s svm_ep.holding_jungle_staff matches 1 run function svm_ep:items/jungle_staff/activate_mainhand
+execute as @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{svm_ep.jungle_staff:1b}}}}}] unless score @s svm_ep.holding_jungle_staff matches 2 run function svm_ep:items/jungle_staff/activate_offhand
+
+execute as @s[scores={svm_ep.holding_jungle_staff=1}] unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{svm_ep.jungle_staff:1b}}}}] run function svm_ep:items/jungle_staff/put_away
+execute as @s[scores={svm_ep.holding_jungle_staff=2}] unless entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{svm_ep.jungle_staff:1b}}}}}] run function svm_ep:items/jungle_staff/put_away

@@ -1,0 +1,36 @@
+{
+  "feature": {
+    "type": "minecraft:twisting_vines",
+    "config": {
+      "spread_width": 3,
+      "spread_height": 4,
+      "max_height": 37
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 1,
+            "data": {
+              "type": "minecraft:uniform",
+                "min_inclusive": 7,
+                "max_inclusive": 32
+            }
+          },
+          {
+            "weight": 4,
+            "data": {
+              "type": "minecraft:uniform",
+                "min_inclusive": 0,
+                "max_inclusive": 12
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
