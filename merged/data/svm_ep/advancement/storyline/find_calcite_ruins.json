@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calcite"
+    },
+    "title": {
+      "text": "CaCO3 Ru1N5",
+      "color": "white",
+      "bold": false
+    },
+    "description": {
+      "text": "Find Calcite Ruins",
+      "color": "green",
+      "bold": false,
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "svm_ep:storyline/travel_paradise",
+  "criteria": {
+    "find_calcite_ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "svm_ep:calcite_ruins"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "find_calcite_ruins"
+    ]
+  ],
+  "rewards": {
+    "function": "svm_ep:advancements/generic_reward"
+  }
+}

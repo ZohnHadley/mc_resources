@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "id": "def",
+                  "amount": -2.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "def",
+                  "amount": 7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Death Scythe",
+                "color": "#170004",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "svm_ep:death_scythe"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+              {
+                "text": "A deadly weapon, is it safe to use?",
+                "color": "gray",
+                "bold": false,
+                "italic": true
+              },
+              {
+                "text": "- Press F/(offhand) to dash",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "svm_ep.item": {"id":"death_scythe"},
+                "tick": {
+                  "offhand": {
+                    "swap_items_on_trigger": {},
+                    "command": "execute at @s run function svm_ep:items/death_scythe/dash",
+                    "show_cooldown": {},
+                    "cooldown": {
+                      "length": 100
+                    }
+                  }
+                },
+                "player_hurt_entity": {
+                  "mainhand": {
+                    "command": "execute at @s run function svm_ep:items/death_scythe/attack_with",
+                    "cooldown": {
+                      "length": 10
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+            
+             

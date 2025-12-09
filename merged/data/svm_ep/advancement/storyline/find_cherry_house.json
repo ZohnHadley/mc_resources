@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "text": "Ohayo!",
+      "color": "white",
+      "bold": false,
+      "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger svm_ep.menu set 1"
+      }
+    },
+    "description": {
+      "text": "Find a Cherry House",
+      "color": "green",
+      "bold": false,
+      "italic": false,
+      "clickEvent": {
+        "action": "run_command",
+        "value": "/trigger svm_ep.menu set 1"
+      }
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "svm_ep:storyline/travel_paradise",
+  "criteria": {
+    "find_cherry_house": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "svm_ep:cherry_house"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "find_cherry_house"
+    ]
+  ],
+  "rewards": {
+    "function": "svm_ep:advancements/generic_reward"
+  }
+}

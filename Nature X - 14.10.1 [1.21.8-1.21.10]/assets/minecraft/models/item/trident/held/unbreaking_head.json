@@ -1,6 +1,0 @@
-{
-	"parent": "item/trident/held/trident_head",
-	"textures": {
-		"0": "item/trident/held/unbreaking"
-	}
-}

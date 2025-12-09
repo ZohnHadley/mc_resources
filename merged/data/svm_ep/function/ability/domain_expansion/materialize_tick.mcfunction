@@ -1,0 +1,4 @@
+execute as @n[tag=svm_ep.domain_expansion_barrier_not_displayed,distance=..100] at @s run function svm_ep:ability/domain_expansion/setup_barrier_display
+execute as @s[scores={svm_ep.lifetime=10..}] as @e[tag=svm_ep.domain_expansion_barrier_not_displayed,distance=..100,limit=5,sort=nearest] at @s run function svm_ep:ability/domain_expansion/setup_barrier_display
+execute as @s[scores={svm_ep.lifetime=20..}] as @e[tag=svm_ep.domain_expansion_barrier_not_displayed,distance=..100,limit=6,sort=nearest] at @s run function svm_ep:ability/domain_expansion/setup_barrier_display
+execute unless entity @e[tag=svm_ep.domain_expansion_barrier_not_displayed,distance=..100] summon item_display run function svm_ep:ability/domain_expansion/materialize_end

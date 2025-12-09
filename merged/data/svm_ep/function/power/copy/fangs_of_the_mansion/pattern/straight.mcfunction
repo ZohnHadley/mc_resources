@@ -1,0 +1,9 @@
+execute positioned ^ ^ ^1 summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup
+execute positioned ^ ^ ^2 summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup
+execute positioned ^ ^ ^3 summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup
+execute positioned ^ ^ ^4 summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup
+execute positioned ^ ^ ^5 summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup
+execute positioned ^ ^ ^6 summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup
+execute positioned ^ ^ ^7 summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup
+execute positioned ^ ^ ^8 summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup
+execute positioned ^ ^ ^9 summon minecraft:evoker_fangs run function svm_ep:power/copy/fangs_of_the_mansion/setup

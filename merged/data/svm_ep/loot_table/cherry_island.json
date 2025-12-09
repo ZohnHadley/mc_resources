@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "value": "svm_ep:items/hardened_sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 6,
+          "value": "svm_ep:items/rainbow_paper"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "svm_ep:items/golden/flesh"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "svm_ep:items/golden/pearl"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "svm_ep:items/golden/eye"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "svm_ep:items/golden/heart"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "svm_ep:items/golden/steak"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "svm_ep:items/tengu_fan"
+        }
+      ]
+    }
+  ]
+}

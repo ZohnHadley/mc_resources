@@ -1,0 +1,1 @@
+$say $(mana_display)

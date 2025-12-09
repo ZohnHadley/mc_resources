@@ -1,0 +1,1 @@
+execute if entity @e[tag=svm.terrain_destruction] run schedule function svm_core:terrain_destruction/tick 1t replace

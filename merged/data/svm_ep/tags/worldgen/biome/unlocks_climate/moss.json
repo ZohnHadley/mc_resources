@@ -1,0 +1,8 @@
+
+{
+  "replace": false,
+  "values": [
+    "minecraft:lush_caves",
+    "svm_ep:modified_jungle"
+  ]
+}

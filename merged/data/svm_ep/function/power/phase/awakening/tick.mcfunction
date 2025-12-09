@@ -1,0 +1,1 @@
+scoreboard players remove @s svm_ep.p.phase_awakening_lenght 1

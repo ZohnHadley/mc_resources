@@ -1,0 +1,1 @@
+$tellraw @s [{"text":"| ","color":"gray"},{"text":"$(message)","color":"red"},{"text":"!","color":"gray"}]

@@ -1,7 +1,0 @@
-{
-    "parent": "item/iron_chestplate",
-    "textures": {
-        "layer0": "item/blank",
-        "layer1": "trims/items/chestplate_trim_gold"
-    }
-}

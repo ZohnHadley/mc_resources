@@ -1,6 +1,0 @@
-{
-    "parent": "item/mace",
-    "textures": {
-        "layer0": "item/mace/density_vanishing"
-    }
-}

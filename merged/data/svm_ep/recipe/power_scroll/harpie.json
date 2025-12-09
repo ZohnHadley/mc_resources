@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:feather"
+    ],
+    [
+      "minecraft:feather"
+    ],
+    [
+      "minecraft:feather"
+    ],
+    [
+      "minecraft:phantom_membrane"
+    ],
+    [
+      "minecraft:phantom_membrane"
+    ],
+    [
+      "minecraft:paper"
+    ],
+    [
+      "minecraft:rabbit_foot"
+    ],
+    [
+      "minecraft:rabbit_foot"
+    ],
+    [
+      "minecraft:rabbit_foot"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:flower_banner_pattern",
+    "components": {
+      "minecraft:custom_data": "{svm_ep.item:{id:power_scroll,power:harpie},tick:{offhand:{command:'function svm_ep:items/scroll/held_offhand',swap_items_on_trigger:{}}}}",
+      "minecraft:custom_name": {
+        "text": "Harpie Scroll",
+        "color": "#d7d3ff",
+          "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Put in your offhand to obtain harpie powers",
+          "type": "text",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "text": "(Doesn't work if user has any of the powers)",
+          "type": "text",
+          "color": "gray"
+        }
+      ],
+      "minecraft:enchantments": {
+        "minecraft:lure": 1
+      }
+    }
+  }
+}

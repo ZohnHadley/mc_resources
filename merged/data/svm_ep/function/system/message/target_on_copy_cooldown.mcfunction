@@ -1,0 +1,1 @@
+tellraw @s [{"text":"| ","color":"gray"},{"text":"Target has been copied from recently","color":"red"},{"text":"!","color":"gray"}]

@@ -1,0 +1,44 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{svm_ep.update:0b}"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{svm_ep.update:1b}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "components": {
+                "minecraft:custom_data": "{svm_ep.update:0b}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{svm_ep.update:0b}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "components": {
+                "minecraft:custom_data": "{svm_ep.update:1b}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

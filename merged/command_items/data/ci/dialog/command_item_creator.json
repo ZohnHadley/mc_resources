@@ -1,0 +1,187 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Command Item Creator",
+  "external_title": "Command Item Creator",
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:command_block"
+    },
+    "show_decorations": false,
+    "show_tooltip": false
+  },
+  "inputs": [
+    {
+      "type": "minecraft:single_option",
+      "key": "input",
+      "width": 150,
+      "label": "Input",
+      "label_visible": true,
+      "options": [
+        {
+          "id": "tick",
+          "display": {
+            "text": "Tick",
+            "color": "#b4fef5"
+          },
+          "initial": true
+        },
+        {
+          "id": "use_item",
+          "display": {
+            "text": "Use Item",
+            "color": "#b4fef5"
+          }
+        },
+        {
+          "id": "using_item",
+          "display": {
+            "text": "Using Item",
+            "color": "#b4fef5"
+          }
+        },
+        {
+          "id": "player_hurt_entity",
+          "display": {
+            "text": "Player Hurt Entity",
+            "color": "#b4fef5"
+          }
+        },
+        {
+          "id": "player_killed_entity",
+          "display": {
+            "text": "Player Killed Entity",
+            "color": "#b4fef5"
+          }
+        },
+        {
+          "id": "entity_hurt_player",
+          "display": {
+            "text": "Entity Hurt Player",
+            "color": "#b4fef5"
+          }
+        },
+        {
+          "id": "inventory_changed",
+          "display": {
+            "text": "Inventory Changed",
+            "color": "#b4fef5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:single_option",
+      "key": "slot",
+      "width": 120,
+      "label": "Slot",
+      "label_visible": true,
+      "options": [
+        {
+          "id": "mainhand",
+          "display": {
+            "text": "Mainhand",
+            "color": "#b4fef5"
+          },
+          "initial": true
+        },
+        {
+          "id": "offhand",
+          "display": {
+            "text": "Offhand",
+            "color": "#b4fef5"
+          }
+        },
+        {
+          "id": "head",
+          "display": {
+            "text": "Armor: Head",
+            "color": "#b4fef5"
+          }
+        },
+        {
+          "id": "chest",
+          "display": {
+            "text": "Armor: Chest",
+            "color": "#b4fef5"
+          }
+        },
+        {
+          "id": "legs",
+          "display": {
+            "text": "Armor: Legs",
+            "color": "#b4fef5"
+          }
+        },
+        {
+          "id": "feet",
+          "display": {
+            "text": "Armor: Feet",
+            "color": "#b4fef5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:text",
+      "key": "command",
+      "label": {
+        "text": "Command"
+      },
+      "max_length": 500
+    },
+    {
+      "type": "minecraft:text",
+      "key": "cooldown_length",
+      "width": 40,
+      "label": {
+        "text": "Cooldown"
+      },
+      "initial": "0",
+      "max_length": 15
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "show_cooldown",
+      "label": {
+        "text": "Show Cooldown"
+      },
+      "on_true": "show_cooldown:{}",
+      "on_false": "empty:0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "swap_items",
+      "label": {
+        "text": "Swap Hand Items on Trigger"
+      },
+      "on_true": "swap_items_on_trigger:{}",
+      "on_false": "empty:0"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "consume",
+      "label": {
+        "text": "Consume on Trigger"
+      },
+      "on_true": "consume:{}",
+      "on_false": "empty:0"
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": {
+        "text": "Create",
+        "color": "#f00000"
+      },
+      "width": 70,
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "function ci:dialog/modify {input:\"$(input)\",slot:\"$(slot)\",command:\"$(command)\",cooldown_length:$(cooldown_length),optional_data:{$(show_cooldown),$(swap_items),$(consume)}}"
+      }
+    }
+  ]
+}

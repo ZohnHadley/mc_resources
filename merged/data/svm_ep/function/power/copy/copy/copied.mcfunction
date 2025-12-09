@@ -1,0 +1,4 @@
+$tellraw @s [{"text":"| C","color":"gray"},{"text":"o","color":"#C6C6C6"},{"text":"p","color":"#DFDFDF"},{"text":"ie","color":"#C6C6C6"},{"text":"d ","color":"gray"},{"score":{"name":"%COPIED_COUNT","objective":"svm_ep.numbers"},"color":"yellow"},{"text":" $(name)s","color":"gold"}]
+$execute if score @s svm_ep.p.copy_ability_$(id)_count matches ..0 run scoreboard players set @s svm_ep.p.copy_ability_$(id)_count 0
+$scoreboard players operation @s svm_ep.p.copy_ability_$(id)_count += %COPIED_COUNT svm_ep.numbers
+$execute if score @s svm_ep.p.copy_ability_$(id)_count >= @s svm_ep.p.copy_max_copied_abilities run scoreboard players operation @s svm_ep.p.copy_ability_$(id)_count = @s svm_ep.p.copy_max_copied_abilities

@@ -1,0 +1,2 @@
+execute unless score @s svm_ep.entity_id_slow matches 1.. run scoreboard players add %total_ids svm_ep.entity_id_slow 1
+execute unless score @s svm_ep.entity_id_slow matches 1.. run scoreboard players operation @s svm_ep.entity_id_slow = %total_ids svm_ep.entity_id_slow

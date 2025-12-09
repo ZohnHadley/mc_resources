@@ -1,0 +1,1 @@
+data modify storage svm_ep:mana_display input.mana_display set value ''

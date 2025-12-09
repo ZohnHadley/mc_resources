@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_tuff"
+    },
+    "title": {
+      "text": "Golden Activation",
+      "color": "white",
+      "bold": false
+    },
+    "description": {
+      "text": "Eat Golden Food next to a Connector of The Paradise",
+      "color": "green",
+      "bold": false,
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "svm_ep:storyline/travel_paradise",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "svm_ep:advancements/generic_reward"
+  }
+}

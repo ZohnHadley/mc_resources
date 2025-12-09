@@ -1,0 +1,2 @@
+execute as @s[tag=svm_ep.cherry_katana] run function svm_ep:block/cherry_katana/8t
+execute as @s[tag=svm_ep.block.flora_creaking_heart] at @s run return run function svm_ep:block/flora_creaking_heart/tick

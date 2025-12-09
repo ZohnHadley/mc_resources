@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 1,
+    "xz_spread": 5,
+    "y_spread": 5,
+    "feature": {
+      "feature": "minecraft:jungle_bush",
+      "placement": [
+        {
+          "type": "minecraft:heightmap",
+          "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+        }
+      ]
+    }
+  }
+}

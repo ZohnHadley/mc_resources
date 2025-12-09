@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "svm_ep:cherry_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 12147312,
+    "spacing": 6,
+    "separation": 4,
+    "type": "minecraft:random_spread"
+  }
+}

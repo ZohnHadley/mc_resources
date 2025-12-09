@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2147483647,
+                  "animation": "none",
+                  "sound": {
+                    "sound_id": ""
+                  },
+                  "has_consume_particles": false
+                },
+                "minecraft:item_model": "svm_ep:icon/ability_input",
+                "minecraft:item_name": {
+                  "text": "Use Ability"
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Right-click to use selected ability",
+                  "color": "#75aaff",
+                  "italic": false
+                },
+                {
+                  "text": "Using in offhand is recommended",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "If you're confused about the pack, type",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": "/trigger svm_ep.menu",
+                  "color": "#b3c9c9",
+                  "italic": true
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{svm_ep.item:{id:ability_input},svm_ep.kill:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

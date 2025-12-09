@@ -1,0 +1,9 @@
+
+{
+  "replace": false,
+  "values": [
+    "svm_ep:sniffed_meadow",
+    "svm_ep:forest",
+    "svm_ep:pine_kingdom"
+  ]
+}

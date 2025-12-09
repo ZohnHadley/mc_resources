@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:zombified_piglin",
+    "minecraft:vindicator",
+    "minecraft:area_effect_cloud",
+    "minecraft:marker",
+    "minecraft:item_display",
+    "minecraft:armor_stand",
+    "minecraft:wandering_trader",
+    "minecraft:husk",
+    "minecraft:interaction"
+  ]
+}

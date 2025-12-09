@@ -1,0 +1,2 @@
+$particle minecraft:trail{duration:20,color:[0.98f,0.5f,0.2f],target:$(Pos)} ~ ~1 ~ 0.5 0.5 0.5 0 15
+$particle minecraft:trail{duration:20,color:[0.37f,0.37f,0.37f],target:$(Pos)} ~ ~1 ~ 0.75 0.75 0.75 0 15

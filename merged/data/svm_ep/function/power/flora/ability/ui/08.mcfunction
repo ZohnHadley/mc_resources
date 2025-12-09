@@ -1,0 +1,5 @@
+scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.flora_ability_08_delay
+function svm_ep:system/cooldown/calculate
+$execute unless score %cooldown1 svm_ep.numbers matches 1.. run return run title @s actionbar [$(mana_display),{"text":" ","color":"#4f4d4d"},{"text":"H","color":"#cc7033"},{"text":"a","color":"#d8864a"},{"text":"r","color":"#e59c61"},{"text":"v","color":"#f2b278"},{"text":"e","color":"#ffc88f"},{"text":"s","color":"#e59c61"},{"text":"t","color":"#cc7033"},{"text":" |","color":"gray"}]
+function svm_ep:power/delay
+$title @s actionbar [$(mana_display),{"text":" ","strikethrough":true,"color":"#4f4d4d"},{"text":"H","strikethrough":true,"color":"#4d4d4d"},{"text":"a","strikethrough":true,"color":"#606060"},{"text":"r","strikethrough":true,"color":"#747474"},{"text":"v","strikethrough":true,"color":"#888888"},{"text":"e","strikethrough":true,"color":"#9c9c9c"},{"text":"s","strikethrough":true,"color":"#747474"},{"text":"t","strikethrough":true,"color":"#4d4d4d"},{"text":" ","strikethrough":true,"color":"#4f4d4d"},{"text":"|","color":"gray"},$(cooldown_display)]

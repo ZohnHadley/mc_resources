@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [{"text": "climatuh"}],
+  "body": {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:oak_sapling",
+      "components": {
+        "minecraft:item_model": "minecraft:warped_fungus"
+      }
+    },
+    "description": {
+      "text": "Click on the item name to create it!"
+    },
+    "show_decorations": false,
+    "show_tooltip": false
+  },
+  "after_action": "none",
+  "exit_action": {
+    "label": "Close",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger svm_ep.menu set 2"
+    }
+  },
+  "columns": 3,
+  "can_close_with_escape": true,
+  "pause": false,
+  "actions": [{"label": {"text": "Warped Fungus", "color": "#00DDFF"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 1"}}, {"label": {"text": "Warped Wart Block", "color": "#00AAFF"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 2"}}, {"label": {"text": "Warped Stem", "color": "#0088FF"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 3"}}, {"label": {"text": "Warped Roots", "color": "#00AA88"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 4"}}, {"label": {"text": "Twisting Vines", "color": "#00CC88"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 5"}}, {"label": {"text": "Nether Sprouts", "color": "#00EEAA"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 6"}}, {"label": {"text": "Shroomlight", "color": "#FFD700"}, "width": 100, "action": {"type": "minecraft:run_command", "command": "trigger svm_ep.z.mid_ability_input set 7"}}]
+}

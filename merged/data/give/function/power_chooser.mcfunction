@@ -1,0 +1,2 @@
+loot give @s loot svm_ep:items/power_chooser
+summon minecraft:item ~ ~1 ~ {Item:{components:{"minecraft:consumable":{animation:"none",consume_seconds:2.1483482E7f},"minecraft:custom_data":{use_item:{mainhand:{command:"function svm_ep:items/chooser/menu/display_macro with storage svm_ep:menu chooser"}}},"minecraft:food":{can_always_eat:1b,nutrition:0,saturation:0.0f},"minecraft:item_model":"svm_ep:icon/base","minecraft:item_name":{color:"red",text:"Power Chooser (Admin)"}},count:1,id:"minecraft:diamond_horse_armor"}}

@@ -1,0 +1,4 @@
+tag @s add svm_ep.leaf_storm
+scoreboard players set @s svm_ep.projectile 1
+scoreboard players operation @s svm_ep.entity_id = @n[tag=executor] svm_ep.entity_id
+data modify entity @s Rotation set from entity @n[tag=executor] Rotation

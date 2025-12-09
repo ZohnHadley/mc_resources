@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{svm_ep.update:0b}"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{svm_ep.update:1b}",
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{svm_ep.update:0b}",
+    "conditions": []
+  }
+]

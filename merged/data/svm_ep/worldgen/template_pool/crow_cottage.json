@@ -1,0 +1,15 @@
+{
+  "name": "svm_ep:crow_cottage",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "svm_ep:crow_cottage",
+        "processors": "svm_ep:crow_cottage",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

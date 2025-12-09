@@ -1,0 +1,16 @@
+{
+  "parent": "svm_ep:quest/all",
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "team": "svm_ep.power_user_mob"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "svm_ep:quest/kill_power_mob/trigger"
+  }
+}

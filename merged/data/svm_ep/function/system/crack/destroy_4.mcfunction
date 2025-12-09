@@ -1,0 +1,10 @@
+execute positioned ~ ~ ~2 run function svm_ep:system/crack/destroy_2
+execute positioned ~ ~ ~-2 run function svm_ep:system/crack/destroy_2
+execute positioned ~2 ~ ~ run function svm_ep:system/crack/destroy_2
+execute positioned ~-2 ~ ~ run function svm_ep:system/crack/destroy_2
+execute positioned ~ ~2 ~ run function svm_ep:system/crack/destroy_2
+execute positioned ~ ~-2 ~ run function svm_ep:system/crack/destroy_2
+execute positioned ~1 ~ ~1 run function svm_ep:system/crack/destroy_2
+execute positioned ~1 ~ ~-1 run function svm_ep:system/crack/destroy_2
+execute positioned ~-1 ~ ~1 run function svm_ep:system/crack/destroy_2
+execute positioned ~-1 ~ ~-1 run function svm_ep:system/crack/destroy_2

@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "def",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -0.85,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "def",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Repel Zone",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "inventory_changed": {
+                  "offhand": {
+                    "swap_items_on_trigger": {},
+                    "command": "execute as @s[advancements={svm_ep:unlocked_ability/explosion/7=false}] run function svm_ep:items/scroll/learn/re_explode"
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "svm_ep:knowledge_scroll"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "- Power Ability",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "| Put in offhand to learn",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "| Requires Explosion Power",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+

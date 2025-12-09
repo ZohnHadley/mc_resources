@@ -1,6 +1,0 @@
-{
-	"parent": "item/saddle",
-	"textures": {
-		"layer0": "item/saddle/enchanted"
-	}
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "item/iron_chestplate",
-    "textures": {
-        "layer0": "item/armor/chestplate/fire_protection"
-    }
-}

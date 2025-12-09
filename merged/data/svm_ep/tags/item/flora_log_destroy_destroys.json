@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#svm_ep:wood_and_logs",
+    "minecraft:rooted_dirt",
+    "minecraft:mangrove_roots"
+  ]
+}

@@ -1,0 +1,11 @@
+execute if biome ~ ~ ~ #svm_ep:has_wood/spruce run scoreboard players set @s svm_ep.p.flora_climate 1
+execute if biome ~ ~ ~ #svm_ep:has_wood/birch run scoreboard players set @s svm_ep.p.flora_climate 2
+execute if biome ~ ~ ~ #svm_ep:has_wood/jungle run scoreboard players set @s svm_ep.p.flora_climate 3
+execute if biome ~ ~ ~ #svm_ep:has_wood/acacia run scoreboard players set @s svm_ep.p.flora_climate 4
+execute if biome ~ ~ ~ #svm_ep:has_wood/dark_oak run scoreboard players set @s svm_ep.p.flora_climate 5
+execute if biome ~ ~ ~ #svm_ep:has_wood/mangrove run scoreboard players set @s svm_ep.p.flora_climate 6
+execute if biome ~ ~ ~ #svm_ep:has_wood/cherry run scoreboard players set @s svm_ep.p.flora_climate 7
+execute if biome ~ ~ ~ #svm_ep:has_wood/crimson run scoreboard players set @s svm_ep.p.flora_climate 8
+execute if biome ~ ~ ~ #svm_ep:has_wood/warped run scoreboard players set @s svm_ep.p.flora_climate 9
+execute if biome ~ ~ ~ #svm_ep:has_wood/azalea run scoreboard players set @s svm_ep.p.flora_climate 10
+execute if biome ~ ~ ~ #svm_ep:has_wood/pale run scoreboard players set @s svm_ep.p.flora_climate 11

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "svm_ep:clay_colloseum",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 40347312,
+    "spacing": 20,
+    "separation": 18,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "svm_ep:craft/all",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "svm_ep:jungle_staff"
+      }
+    }
+  },
+  "rewards": {
+    "function": "svm_ep:player/craft_item",
+    "loot": [
+      "svm_ep:items/jungle_staff"
+    ]
+  }
+}

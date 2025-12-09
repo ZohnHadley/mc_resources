@@ -1,0 +1,5 @@
+scoreboard players operation %cooldown1 svm_ep.numbers = @s svm_ep.p.copy_ability_32_delay
+function svm_ep:system/cooldown/calculate
+$execute unless score %cooldown1 svm_ep.numbers matches 1.. run return run title @s actionbar [$(mana_display),{"text":" "},{"text":"V","color":"#111012"},{"text":"o","color":"#635c6d"},{"text":"i","color":"#b6a9c9"},{"text":"d","color":"#111012"},{"text":" | ","color":"gray"},{"score":{"name":"@s","objective":"svm_ep.p.copy_ability_32_count"},"color":"#FFBA00"},{"text":" |","color":"gray"}]
+function svm_ep:power/delay
+$title @s actionbar [$(mana_display),{"text":" ","strikethrough":true,"color":"#4f4d4d"},{"text":"V","strikethrough":true,"color":"#4d4d4d"},{"text":"o","strikethrough":true,"color":"#747474"},{"text":"i","strikethrough":true,"color":"#9c9c9c"},{"text":"d","strikethrough":true,"color":"#4d4d4d"},{"text":" ","strikethrough":true,"color":"#4f4d4d"},{"text":"| ","color":"gray"},{"score":{"name":"@s","objective":"svm_ep.p.copy_ability_32_count"},"color":"#FFBA00"},{"text":" |","color":"gray"},$(cooldown_display)]

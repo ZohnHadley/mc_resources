@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:netherite_ingot"
+    ],
+    [
+      "minecraft:flowering_azalea"
+    ],
+    [
+      "minecraft:bamboo"
+    ],
+    [
+      "minecraft:dark_oak_sapling"
+    ],
+    [
+      "minecraft:cherry_sapling"
+    ],
+    [
+      "minecraft:cactus"
+    ],
+    [
+      "minecraft:conduit"
+    ],
+    [
+      "minecraft:pitcher_plant"
+    ],
+    [
+      "minecraft:mangrove_propagule"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:custom_data": "{svm_ep.item_to_clear:1b,svm_ep.kill:1b}",
+      "minecraft:custom_name": {
+        "text": "Jungle Staff",
+        "color": "green",
+          "italic": false
+      },
+      "minecraft:item_model": "svm_ep:jungle_staff"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "name": "svm_ep:calcite_ruins/street",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "svm_ep:calcite_ruins/streets/st1",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "svm_ep:calcite_ruins/streets/st2",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "svm_ep:calcite_ruins/streets/st3",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "svm_ep:calcite_ruins/streets/st4",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "svm_ep:calcite_ruins/streets/st5",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "svm_ep:calcite_ruins/streets/st6",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "svm_ep:calcite_ruins/streets/st7",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "svm_ep:calcite_ruins/gate1",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "svm_ep:calcite_ruins/streets/st8",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "svm_ep:calcite_ruins/streets/st9",
+        "processors": "svm_ep:calcite_ruins",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

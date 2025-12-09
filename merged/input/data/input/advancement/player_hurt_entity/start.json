@@ -1,0 +1,11 @@
+{
+  "parent": "input:all",
+  "criteria": {
+    "shift_click": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "input:player_hurt_entity/start"
+  }
+}

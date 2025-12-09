@@ -1,0 +1,1 @@
+execute as @s[scores={svm_ep.using_move=930..990}] run function svm_ep:power/lightning/dance/tick2

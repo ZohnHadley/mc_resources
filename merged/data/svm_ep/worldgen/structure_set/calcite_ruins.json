@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "svm_ep:calcite_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 14145312,
+    "spacing": 25,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}

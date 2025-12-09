@@ -1,0 +1,1 @@
+function #input:potential_equipment_change

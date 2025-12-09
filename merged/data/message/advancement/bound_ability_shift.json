@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
+    },
+    "title": "Ability bound to shift on selected slot",
+    "description": "",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "message:root",
+  "criteria": {
+    "input": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

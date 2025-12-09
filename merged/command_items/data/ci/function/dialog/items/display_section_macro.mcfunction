@@ -1,0 +1,1 @@
+$dialog show @s {"type":"minecraft:multi_action","title":{"text":"$(name)","color":"$(color)"},"pause":false,"after_action":"none","exit_action":{"label":{"text":"Close","color":"red"}},"columns":3,"actions":$(dialogs)}

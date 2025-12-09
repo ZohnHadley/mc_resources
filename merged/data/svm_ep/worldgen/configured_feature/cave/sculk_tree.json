@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:sculk"
+    },
+    "decor_state": {
+      "Name": "minecraft:pearlescent_froglight"
+    },
+    "stem_state": {
+      "Name": "minecraft:sandstone"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:blackstone"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
+    }
+  }
+}

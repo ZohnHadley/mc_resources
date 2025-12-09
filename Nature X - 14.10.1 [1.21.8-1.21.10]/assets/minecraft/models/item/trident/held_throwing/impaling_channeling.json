@@ -1,6 +1,0 @@
-{
-	"parent": "item/trident/held_throwing/impaling",
-	"textures": {
-		"0": "item/trident/held/channeling"
-	}
-}

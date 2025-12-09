@@ -1,0 +1,1 @@
+data modify storage svm_ep:mana_display input.cooldown_display set value '{"text":" ","color":"gray"},{"score":{"name":"%cooldown1","objective":"svm_ep.numbers"},"color":"red"},{"text":".","color":"red"},{"score":{"name":"%cooldown2","objective":"svm_ep.numbers"},"color":"red"}'

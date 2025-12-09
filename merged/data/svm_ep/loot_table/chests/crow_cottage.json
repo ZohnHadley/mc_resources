@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "svm_ep:items/tengu_fan"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "value": "svm_ep:items/golden/flesh"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "svm_ep:items/golden/eye"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "value": "svm_ep:items/golden/pearl"
+        }
+      ]
+    }
+  ]
+}

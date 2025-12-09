@@ -1,0 +1,1 @@
+advancement grant @s from svm_ep:unlocked_ability/all

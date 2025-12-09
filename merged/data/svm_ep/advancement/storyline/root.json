@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:item_model": "svm_ep:icon/base"
+      }
+    },
+    "title": {
+      "text": "SVM Powers",
+      "color": "gold",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "Prepare for a powerful adventure!",
+      "color": "green",
+      "italic": false
+    },
+    "background": "minecraft:block/chiseled_quartz_block",
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

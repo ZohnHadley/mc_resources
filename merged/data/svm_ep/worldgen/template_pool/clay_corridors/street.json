@@ -1,0 +1,87 @@
+{
+  "name": "svm_ep:clay_corridors/reet",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "location": "svm_ep:clay_corridors/corridor/1",
+        "processors": "svm_ep:clay_corridor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "svm_ep:clay_corridors/corridor/2",
+        "processors": "svm_ep:clay_corridor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "svm_ep:clay_corridors/corridor/3",
+        "processors": "svm_ep:clay_corridor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "svm_ep:clay_corridors/corridor/4",
+        "processors": "svm_ep:clay_corridor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "svm_ep:clay_corridors/corridor/5",
+        "processors": "svm_ep:clay_corridor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "svm_ep:clay_corridors/corridor/6",
+        "processors": "svm_ep:clay_corridor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "svm_ep:clay_corridors/corridor/7",
+        "processors": "svm_ep:clay_corridor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "svm_ep:clay_corridors/corridor/8",
+        "processors": "svm_ep:clay_corridor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "svm_ep:clay_corridors/corridor/9",
+        "processors": "svm_ep:clay_corridor",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

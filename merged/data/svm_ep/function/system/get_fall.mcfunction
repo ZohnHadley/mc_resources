@@ -1,0 +1,1 @@
+execute as @s store result score @s falldistance run data get entity @s FallDistance 1

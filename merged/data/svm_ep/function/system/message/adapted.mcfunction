@@ -1,0 +1,2 @@
+$tellraw @a[distance=..50] [{"text":"| ","color":"gray"},{"text":"Further adapted to $(id) ","color":"red"},{"score":{"name":"@s","objective":"svm_ep.npc.adapter.adaptation.$(id).lvl"}},{"text":" !","color":"gray"}]
+#function svm_ep:system/message/adapted {id:""}

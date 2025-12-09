@@ -1,0 +1,1 @@
+execute summon minecraft:item_display positioned ~ ~-15 ~ at @s run function svm_ep:non_power/black_box/spawn_

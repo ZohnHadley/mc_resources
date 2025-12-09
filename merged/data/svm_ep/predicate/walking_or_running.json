@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "svm_ep.walking": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "svm_ep.sprinting": {
+          "min": 1
+        }
+      }
+    }
+  ]
+}

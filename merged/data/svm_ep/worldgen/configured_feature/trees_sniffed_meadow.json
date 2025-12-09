@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "svm_ep:sniffer_tree",
+    "features": [
+      {
+        "chance": 0.85,
+        "feature": "svm_ep:sniffer_tree"
+      },
+      {
+        "chance": 0.15,
+        "feature": "svm_ep:oak_large"
+      }
+    ]
+  }
+}

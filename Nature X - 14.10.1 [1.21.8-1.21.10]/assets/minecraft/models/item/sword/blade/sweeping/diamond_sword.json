@@ -1,6 +1,0 @@
-{
-    "parent": "item/32x_item",
-    "textures": {
-        "layer0": "item/sword/blade/sweeping/diamond_sword"
-    }
-}

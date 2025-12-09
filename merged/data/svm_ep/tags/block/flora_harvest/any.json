@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+     "#svm_ep:flora_harvest/grass",
+     "#svm_ep:flora_harvest/flowers",
+     "#svm_ep:flora_harvest/leaves",
+     "#svm_ep:flora_harvest/mushrooms",
+     "#svm_ep:flora_harvest/wood",
+     "#svm_ep:flora_harvest/moss",
+     "#svm_ep:flora_harvest/crops",
+     "#svm_ep:flora_harvest/aquatic",
+     "#svm_ep:flora_harvest/special"
+    ]
+}

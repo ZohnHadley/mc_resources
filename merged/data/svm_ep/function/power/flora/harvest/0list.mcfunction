@@ -1,0 +1,9 @@
+#1 - grass/other
+#2 - flowers
+#3 - leaves
+#4 - mushrooms
+#5 - wood
+#6 - moss
+#7 - crops
+#8 - aquatic
+#9 - special

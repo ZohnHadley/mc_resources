@@ -1,0 +1,151 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/explosion_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7700"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/flora_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7701"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/gauntlet.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7702"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/jungle_staff.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7703"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/katana.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7704"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/lightning_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7705"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/nunchucks.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7706"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/slime_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7707"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/power_reseter.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7708"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/rainbow_paper.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7709"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/ice_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7710"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/gravity_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7711"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/harpie_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7712"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/dimension_traveler_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7713"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/fire_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7714"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/void_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7715"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/time_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7716"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/healing_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7717"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/death_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7718"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/copy_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7719"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/crafting/water_scroll.png",
+            "ascent": 32,
+            "height": 64,
+            "chars": ["\u7720"]
+        }
+    ]
+}

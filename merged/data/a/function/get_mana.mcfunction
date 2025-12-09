@@ -1,0 +1,1 @@
+scoreboard players operation @s svm_ep.mana = @s svm_ep.mana_max

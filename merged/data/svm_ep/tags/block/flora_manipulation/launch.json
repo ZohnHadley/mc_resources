@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+     "minecraft:kelp",
+     "minecraft:kelp_plant",
+     "minecraft:small_dripleaf",
+     "minecraft:seagrass",
+     "minecraft:tall_seagrass",
+     "minecraft:twisting_vines",
+     "minecraft:twisting_vines_plant",
+     "minecraft:small_dripleaf"
+    ]
+}

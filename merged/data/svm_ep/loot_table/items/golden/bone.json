@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Golden Bone",
+                "color": "gold",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 10,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.67,
+                  "animation": "eat"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{svm_ep.golden_bone:1b,svm_ep.golden_food:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "svm_ep:golden/bone"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "- OVERFLOW",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "| Gives a short but massive",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "| boost to mana regeneration",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

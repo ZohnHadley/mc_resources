@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:min",
+  "argument1": "svm_ep:paradise/noise/erase/continents",
+  "argument2": "svm_ep:paradise/noise/erase/caves"
+}

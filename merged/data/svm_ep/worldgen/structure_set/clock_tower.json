@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "svm_ep:clock_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 24647312,
+    "spacing": 35,
+    "separation": 34,
+    "type": "minecraft:random_spread"
+  }
+}

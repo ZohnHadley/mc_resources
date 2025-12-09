@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "def",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -0.35,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "def",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Battle Bamboo",
+                "color": "#80e213",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{svm_ep.bamboo:1b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "svm_ep:bamboo"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

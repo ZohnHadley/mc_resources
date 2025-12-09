@@ -1,0 +1,1 @@
+execute store result score @s svm_ep.e.grass_step_1 if score @s svm_ep.e.grass_step_1 matches 0

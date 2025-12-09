@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "svm_ep:items/random_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "svm_ep:items/random_gauntlet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "svm_ep:items/ice_breaker",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

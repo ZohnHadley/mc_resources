@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {equipment:{feet:{id:brick,components:{"minecraft:enchantments":{"svm_ep:technical/explosion_1_8":1}}}}}

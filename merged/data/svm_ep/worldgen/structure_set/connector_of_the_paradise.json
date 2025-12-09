@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "svm_ep:connector_of_the_paradise",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 89664362,
+    "spacing": 15,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

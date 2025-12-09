@@ -1,0 +1,58 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/tropical_fish"
+  },
+  "overrides":
+  [
+    {
+      "predicate":
+      {
+        "custom_model_data":1
+      },
+        "model": "item/custom/golden/eye"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":2
+      },
+        "model": "item/custom/golden/bone"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":3
+      },
+        "model": "item/custom/golden/flesh"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":4
+      },
+        "model": "item/custom/golden/beetroot"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":5
+      },
+        "model": "item/custom/golden/pearl"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":6
+      },
+        "model": "item/custom/golden/steak"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":7
+      },
+        "model": "item/custom/golden/heart"
+    }
+  ]
+}

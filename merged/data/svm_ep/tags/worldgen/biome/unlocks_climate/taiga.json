@@ -1,0 +1,13 @@
+
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_taiga",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills",
+    "minecraft:grove",
+    "svm_ep:forest",
+    "svm_ep:pine_kingdom"
+  ]
+}

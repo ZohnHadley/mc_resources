@@ -1,0 +1,11 @@
+{
+  "parent": "input:all",
+  "criteria": {
+    "shift_click": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "input:inventory_changed/start"
+  }
+}

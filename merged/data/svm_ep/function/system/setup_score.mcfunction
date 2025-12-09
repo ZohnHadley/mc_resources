@@ -1,0 +1,1 @@
+$execute unless score $(to) = $(to) run scoreboard players operation $(to) = $(from)

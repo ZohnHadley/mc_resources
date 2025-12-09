@@ -1,6 +1,0 @@
-{
-	"parent": "item/trident/held_throwing/trident_pole",
-	"textures": {
-		"0": "item/trident/held/unbreaking"
-	}
-}

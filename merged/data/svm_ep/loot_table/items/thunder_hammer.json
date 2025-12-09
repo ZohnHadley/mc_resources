@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "id": "def",
+                  "amount": -1.75,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "id": "def",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Thunder Hammer",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "svm_ep:hammer_lightning",
+                "minecraft:damage_resistant": {
+                  "types": "#svm_ep:thunder_hammer_resistant"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{svm_ep.thunder_hammer:1b,svm_ep.hammer:1b}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "- Right-click and then left-click to throw",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Heavy hammer which homes back to its owner,",
+                  "color": "white",
+                  "italic": true
+                },
+                {
+                  "text": "lightning powers enchance its power",
+                  "color": "white",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

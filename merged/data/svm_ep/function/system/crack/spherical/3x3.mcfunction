@@ -1,0 +1,9 @@
+execute positioned ^ ^ ^ run function svm_ep:break_block
+execute positioned ^1 ^ ^ run function svm_ep:break_block
+execute positioned ^ ^1 ^ run function svm_ep:break_block
+execute positioned ^-1 ^ ^ run function svm_ep:break_block
+execute positioned ^ ^-1 ^ run function svm_ep:break_block
+execute positioned ^-1 ^1 ^ run function svm_ep:break_block
+execute positioned ^1 ^-1 ^ run function svm_ep:break_block
+execute positioned ^1 ^1 ^ run function svm_ep:break_block
+execute positioned ^-1 ^-1 ^ run function svm_ep:break_block

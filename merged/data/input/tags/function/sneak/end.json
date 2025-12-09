@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"input:sneak/end",
+		"svm_ep:player/release/sneak"
+	]
+}

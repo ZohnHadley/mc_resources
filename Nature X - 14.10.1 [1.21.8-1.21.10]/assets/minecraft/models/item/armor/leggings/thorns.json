@@ -1,6 +1,0 @@
-{
-    "parent": "item/iron_leggings",
-    "textures": {
-        "layer0": "item/armor/leggings/thorns"
-    }
-}

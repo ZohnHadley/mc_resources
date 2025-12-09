@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "svm_ep:cherry_grove",
+      "lakes": false,
+      "features": false,
+      "layers": []
+    }
+  }
+}

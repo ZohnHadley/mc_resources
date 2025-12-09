@@ -1,0 +1,11 @@
+{
+  "parent": "input:all",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "input:movement/left/tick"
+  }
+}
